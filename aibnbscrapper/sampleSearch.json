@@ -1,0 +1,225 @@
+[
+   {
+      "__typename": "StaySearchResult",
+      "listing": {
+         "__typename": "StaySearchResultListing",
+         "contextualPicturesCount": 30,
+         "contextualPicturesPageInfo": {
+            "__typename": "PageInfo",
+            "endCursor": "NQ==",
+            "hasNextPage": true,
+            "hasPreviousPage": false,
+            "startCursor": null
+         },
+         "id": "27743782",
+         "structuredContent": {
+            "__typename": "ExploreStructuredContent",
+            "distance": null,
+            "mapCategoryInfo": null,
+            "mapPrimaryLine": [
+               {
+                  "__typename": "MainSectionMessage",
+                  "body": "3 beds",
+                  "bodyA11yLabel": null,
+                  "bodyType": null,
+                  "fontWeight": null,
+                  "headline": null,
+                  "type": "BEDINFO"
+               },
+               {
+                  "__typename": "MainSectionMessage",
+                  "body": "2 bedrooms",
+                  "bodyA11yLabel": null,
+                  "bodyType": null,
+                  "fontWeight": null,
+                  "headline": null,
+                  "type": "BEDINFO"
+               }
+            ],
+            "mapSecondaryLine": null,
+            "primaryLine": [
+               {
+                  "__typename": "MainSectionMessage",
+                  "body": "3 beds",
+                  "bodyA11yLabel": null,
+                  "bodyType": null,
+                  "fontWeight": null,
+                  "headline": null,
+                  "type": "BEDINFO"
+               },
+               {
+                  "__typename": "MainSectionMessage",
+                  "body": "2 bedrooms",
+                  "bodyA11yLabel": null,
+                  "bodyType": null,
+                  "fontWeight": null,
+                  "headline": null,
+                  "type": "BEDINFO"
+               }
+            ],
+            "secondaryLine": null,
+            "reviewSnippet": null
+         },
+         "title": "Flat in Darjeeling",
+         "titleLocale": "en",
+         "primaryHostPassport": null
+      },
+      "avgRatingA11yLabel": "4.8 out of 5 average rating,  146 reviews",
+      "avgRatingLocalized": "4.8 (146)",
+      "listingParamOverrides": null,
+      "structuredDisplayPrice": {
+         "__typename": "StructuredDisplayPrice",
+         "primaryLine": {
+            "__typename": "QualifiedDisplayPriceLine",
+            "displayComponentType": "QUALIFIED_DISPLAY_PRICE_LINE",
+            "accessibilityLabel": "₹5,135 per night",
+            "price": "₹5,135",
+            "qualifier": "night",
+            "shortQualifier": "night",
+            "concatQualifierLeft": false,
+            "trailingContent": null,
+            "trailing": null
+         },
+         "secondaryLine": {
+            "__typename": "BasicDisplayPriceLine",
+            "displayComponentType": "BASIC_DISPLAY_PRICE_LINE",
+            "accessibilityLabel": "₹15,406 total",
+            "price": "₹15,406 total",
+            "trailingContent": null,
+            "trailing": null
+         },
+         "explanationData": {
+            "__typename": "DisplayPriceExplanationData",
+            "title": "Price breakdown",
+            "priceDetails": [
+               {
+                  "__typename": "DisplayPriceExplanationLineGroup",
+                  "displayComponentType": "DISPLAY_PRICE_EXPLANATION_LINE_GROUP",
+                  "items": [
+                     {
+                        "__typename": "DefaultExplanationLineItem",
+                        "displayComponentType": "DEFAULT_EXPLANATION_LINE_ITEM",
+                        "description": "₹4,500 x 3 nights",
+                        "priceString": "₹13,500",
+                        "explanationData": null
+                     },
+                     {
+                        "__typename": "DefaultExplanationLineItem",
+                        "displayComponentType": "DEFAULT_EXPLANATION_LINE_ITEM",
+                        "description": "Airbnb service fee",
+                        "priceString": "₹1,906",
+                        "explanationData": null
+                     }
+                  ],
+                  "renderBorderTop": false,
+                  "collapsable": null
+               }
+            ]
+         },
+         "explanationDataDisplayPosition": "SECONDARY_LINE",
+         "explanationDataDisplayPriceTriggerType": null,
+         "layout": "ROW_WITH_SEPARATOR",
+         "displayPriceStyle": "STANDARD"
+      },
+      "badges": [],
+      "contextualPictures": [
+         {
+            "__typename": "ExplorePicture",
+            "caption": null,
+            "dominantSaturatedColor": null,
+            "id": "644480474",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/ml/photo_enhancement/pictures/a1aed4a7-553e-4c85-85a9-4de0707e67fc.jpg",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
+         },
+         {
+            "__typename": "ExplorePicture",
+            "caption": null,
+            "dominantSaturatedColor": null,
+            "id": "642636028",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/ml/photo_enhancement/pictures/8b1bf674-401a-4d09-a3b5-c8887416e4e5.jpg",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
+         },
+         {
+            "__typename": "ExplorePicture",
+            "caption": null,
+            "dominantSaturatedColor": null,
+            "id": "564325528",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/ml/photo_enhancement/pictures/9432332d-11b4-4969-991c-5e84934a8425.jpg",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
+         },
+         {
+            "__typename": "ExplorePicture",
+            "caption": null,
+            "dominantSaturatedColor": null,
+            "id": "642645693",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/ml/photo_enhancement/pictures/2047f2a1-1dbd-43b1-a790-4e3ecc382ba1.jpg",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
+         },
+         {
+            "__typename": "ExplorePicture",
+            "caption": null,
+            "dominantSaturatedColor": null,
+            "id": "643390005",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/ml/photo_enhancement/pictures/6337f1eb-a88d-44a7-8c13-2fb3695d3f10.jpg",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
+         },
+         {
+            "__typename": "ExplorePicture",
+            "caption": null,
+            "dominantSaturatedColor": null,
+            "id": "564344730",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/07562f5d-1bd9-47f3-9586-bb49c2ccd51b.jpg",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
+         }
+      ],
+      "demandStayListing": {
+         "__typename": "DemandStayListing",
+         "location": {
+            "__typename": "DemandStayListingLocation",
+            "coordinate": {
+               "__typename": "Coordinate",
+               "latitude": 27.0468,
+               "longitude": 88.2653
+            }
+         },
+         "isAutoTranslated": false,
+         "description": {
+            "__typename": "DemandStayListingDescription",
+            "name": {
+               "__typename": "UGCText",
+               "localizedStringWithTranslationPreference": "“Gayatri Apartment”  Own entrance."
+            }
+         }
+      }
+   }
+]

@@ -54,9 +54,14 @@ class AirbnbspiderSpider(scrapy.Spider):
                 # 'options':  re.findall(r'"messages":\s*\[(.*?)\]', json['listing']['contextualPictures']['caption']),
                 # The entire regular expression aims to find the string "messages": followed by optional whitespace, an opening square bracket, then captures everything inside of the square brackets, and then finds the closing square bracket. It is designed to extract the contents of a JSON-like "messages" array.
                 # 'coordinates': f"{result['demandStayListing']['location']}", #? Dynamic json keeps changing
+                
                 'price_per_night':price_per_night if price_per_night != None else 'N/A',
                 'total_price': total_price if total_price != None else 'N/A',
             }
+            nextPage = jsonData['niobeMinimalClientData'][0][1]["data"]["presentation"]["staysSearch"]["results"]['paginationInfo']['nextPageCursor']
+            if nextPage:
+                nextUrl = self.base_url + f"&paginationSearch=true&cursor={nextPage}"
+                yield scrapy.Request(url=nextUrl, callback=self.parse)
 
 def is_json_key_present(json, key):
     try:
