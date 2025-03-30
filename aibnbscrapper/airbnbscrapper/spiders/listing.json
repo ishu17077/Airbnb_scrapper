@@ -1,0 +1,3073 @@
+{
+   "data": {
+       "presentation": {
+           "__typename": "RootPresentationContainer",
+           "stayProductDetailPage": {
+               "__typename": "StayPDPPresentationContainer",
+               "sections": {
+                   "__typename": "StayPDPSections",
+                   "sections": [
+                       {
+                           "__typename": "SectionContainer",
+                           "id": "U2VjdGlvbkNvbnRhaW5lcjozOTIyNzIwNzY1ODcwNzc2NDQz",
+                           "sectionComponentType": "POLICIES_DEFAULT",
+                           "sectionContentStatus": "COMPLETE",
+                           "sectionId": "POLICIES_DEFAULT",
+                           "errors": null,
+                           "sectionDependencies": [
+                               "CHECK_IN",
+                               "CHECK_OUT",
+                               "TRANSLATE_UGC",
+                               "BOOKING"
+                           ],
+                           "enableDependencies": null,
+                           "disableDependencies": null,
+                           "loggingData": {
+                               "__typename": "LoggingEventData",
+                               "loggingId": "pdp_platform.policies_default",
+                               "experiments": [
+                                   {
+                                       "__typename": "Experiment",
+                                       "experiment": "stays_consistent_show_more_links_web_v3",
+                                       "treatment": "treatment",
+                                       "dontLogOnFormFactor": null
+                                   }
+                               ],
+                               "eventData": null,
+                               "eventDataSchemaName": null,
+                               "section": null,
+                               "component": null
+                           },
+                           "e2eLoggingSession": null,
+                           "mutationMetadata": null,
+                           "pluginPointId": "POLICIES_DEFAULT",
+                           "section": {
+                               "__typename": "PoliciesSection",
+                               "title": "Things to know",
+                               "cancellationPolicyForDisplay": {
+                                   "__typename": "PdpCancellationPolicy",
+                                   "title": null,
+                                   "subtitles": [
+                                       "This reservation is non-refundable.",
+                                       "Review this Host’s full policy for details."
+                                   ],
+                                   "milestones": [],
+                                   "seeDetailsLink": {
+                                       "__typename": "BasicListItem",
+                                       "title": "Get full details",
+                                       "anchor": "/help/article/2637"
+                                   },
+                                   "cancellationMilestoneModalV2": {
+                                       "__typename": "CancellationMilestoneModalV2",
+                                       "actionLinkText": "Learn more about cancellation policies",
+                                       "actionLinkUrl": "/help/article/2637",
+                                       "disclaimers": [
+                                           "Cleaning fees are refunded if you cancel before check-in."
+                                       ],
+                                       "entries": [
+                                           {
+                                               "__typename": "CancellationMilestoneEntryV2",
+                                               "accessibilityContent": "No refund if you cancel after 4:06 am on 30 March. This reservation is non-refundable..",
+                                               "endAt": "2025-03-31T04:30:00.000Z",
+                                               "refundTerm": "This reservation is non-refundable.",
+                                               "refundType": "No refund",
+                                               "startAt": "2025-03-29T22:36:43.454Z",
+                                               "timelineSubtitles": [
+                                                   "30 Mar",
+                                                   "4:06 am"
+                                               ],
+                                               "timelineTitle": "After"
+                                           }
+                                       ],
+                                       "subtitles": [
+                                           "Make sure you’re comfortable with this Host’s policy. In rare cases, you may be eligible for a refund outside of this policy under Airbnb’s <a href=\"https://www.airbnb.co.in/help/article/1320\">Major Disruptive Events Policy</a>."
+                                       ],
+                                       "title": "Cancellation policy"
+                                   }
+                               },
+                               "additionalHouseRules": null,
+                               "additionalHouseRulesTitle": null,
+                               "cancellationPolicyTitle": "Cancellation policy",
+                               "houseRulesTitle": "House rules",
+                               "listingExpectationsTitle": null,
+                               "safetyAndPropertyTitle": "Safety & property",
+                               "houseRules": [
+                                   {
+                                       "__typename": "BasicListItem",
+                                       "icon": null,
+                                       "title": "Check-in: 2:00 pm – 8:00 pm"
+                                   },
+                                   {
+                                       "__typename": "BasicListItem",
+                                       "icon": null,
+                                       "title": "Checkout before 10:00 am"
+                                   },
+                                   {
+                                       "__typename": "BasicListItem",
+                                       "icon": null,
+                                       "title": "4 guests maximum"
+                                   }
+                               ],
+                               "listingExpectations": null,
+                               "previewSafetyAndProperties": [
+                                   {
+                                       "__typename": "SafetyAndPropertyInfo",
+                                       "title": "No carbon monoxide alarm",
+                                       "icon": null,
+                                       "learnMoreButton": null
+                                   },
+                                   {
+                                       "__typename": "SafetyAndPropertyInfo",
+                                       "title": "No smoke alarm",
+                                       "icon": null,
+                                       "learnMoreButton": null
+                                   },
+                                   {
+                                       "__typename": "SafetyAndPropertyInfo",
+                                       "title": "Exterior security cameras on property",
+                                       "icon": null,
+                                       "learnMoreButton": null
+                                   }
+                               ],
+                               "safetyExpectationsAndAmenities": null,
+                               "seeAllSafetyAndPropertyButton": {
+                                   "__typename": "BasicListItem",
+                                   "accessibilityLabel": "More information about safety and property",
+                                   "title": "Show more",
+                                   "loggingEventData": {
+                                       "__typename": "LoggingEventData",
+                                       "loggingId": "pdp.policies.showAllSafetyAndProperty",
+                                       "experiments": [],
+                                       "eventData": null,
+                                       "eventDataSchemaName": null,
+                                       "section": null,
+                                       "component": null
+                                   }
+                               },
+                               "seeAllHouseRulesButton": {
+                                   "__typename": "BasicListItem",
+                                   "accessibilityLabel": "More information about house rules",
+                                   "title": "Show more",
+                                   "loggingEventData": {
+                                       "__typename": "LoggingEventData",
+                                       "loggingId": "pdp.policies.showAllRules",
+                                       "experiments": [],
+                                       "eventData": null,
+                                       "eventDataSchemaName": null,
+                                       "section": null,
+                                       "component": null
+                                   }
+                               },
+                               "seeCancellationPolicyButton": {
+                                   "__typename": "BasicListItem",
+                                   "accessibilityLabel": "More information about cancellation policy",
+                                   "title": "Show more",
+                                   "loggingEventData": {
+                                       "__typename": "LoggingEventData",
+                                       "loggingId": "pdp.policies.showAllCancellations",
+                                       "experiments": [],
+                                       "eventData": null,
+                                       "eventDataSchemaName": null,
+                                       "section": null,
+                                       "component": null
+                                   }
+                               },
+                               "reportButton": null,
+                               "cleaningModal": null,
+                               "documentDisplay": null,
+                               "seeDocumentDisplayDetailsButton": null,
+                               "houseRulesSubtitle": "You'll be staying in someone's home, so please treat it with care and respect.",
+                               "houseRulesTranslationDisclaimer": null,
+                               "houseRulesSections": [
+                                   {
+                                       "__typename": "GeneralListContentSection",
+                                       "loggingEventData": null,
+                                       "title": "Checking in and out",
+                                       "items": [
+                                           {
+                                               "__typename": "BasicListItem",
+                                               "loggingEventData": null,
+                                               "title": "Check-in: 2:00 pm – 8:00 pm",
+                                               "subtitle": null,
+                                               "icon": "SYSTEM_CLOCK",
+                                               "html": null
+                                           },
+                                           {
+                                               "__typename": "BasicListItem",
+                                               "loggingEventData": null,
+                                               "title": "Checkout before 10:00 am",
+                                               "subtitle": null,
+                                               "icon": "SYSTEM_CLOCK",
+                                               "html": null
+                                           }
+                                       ]
+                                   },
+                                   {
+                                       "__typename": "GeneralListContentSection",
+                                       "loggingEventData": null,
+                                       "title": "During your stay",
+                                       "items": [
+                                           {
+                                               "__typename": "BasicListItem",
+                                               "loggingEventData": null,
+                                               "title": "4 guests maximum",
+                                               "subtitle": null,
+                                               "icon": "SYSTEM_FAMILY",
+                                               "html": null
+                                           },
+                                           {
+                                               "__typename": "BasicListItem",
+                                               "loggingEventData": null,
+                                               "title": "No pets",
+                                               "subtitle": null,
+                                               "icon": "SYSTEM_NO_PETS",
+                                               "html": null
+                                           },
+                                           {
+                                               "__typename": "BasicListItem",
+                                               "loggingEventData": null,
+                                               "title": "Quiet hours",
+                                               "subtitle": "8:00 pm - 8:00 am",
+                                               "icon": "SYSTEM_EVENING",
+                                               "html": null
+                                           },
+                                           {
+                                               "__typename": "BasicListItem",
+                                               "loggingEventData": null,
+                                               "title": "No parties or events",
+                                               "subtitle": null,
+                                               "icon": "SYSTEM_NO_EVENTS",
+                                               "html": null
+                                           },
+                                           {
+                                               "__typename": "BasicListItem",
+                                               "loggingEventData": null,
+                                               "title": "Commercial photography allowed",
+                                               "subtitle": null,
+                                               "icon": "SYSTEM_CAMERA",
+                                               "html": null
+                                           },
+                                           {
+                                               "__typename": "BasicListItem",
+                                               "loggingEventData": null,
+                                               "title": "Smoking is allowed",
+                                               "subtitle": null,
+                                               "icon": "SYSTEM_SMOKING_ALLOWED",
+                                               "html": null
+                                           },
+                                           {
+                                               "__typename": "BasicListItem",
+                                               "loggingEventData": null,
+                                               "title": "Additional rules",
+                                               "subtitle": null,
+                                               "icon": "SYSTEM_CLIPBOARD",
+                                               "html": {
+                                                   "__typename": "Html",
+                                                   "htmlText": "1. Water is a scare resource in Darjeeling. Please use it mindfully. Incase of any leakage, report immediately. Kindly refrain from washing clothes.\n\n2. Heaters are available upon request during winter months for an extra charge. In case of damage while checking, replacement costs are levied.\n\n3. Turn off the geyser and all lights before leaving the apartment.\n\n4. Feel free to use the kitchen but please clean up after yourselves. Please do not take any food items inside the bedroom.  \n\n5. We understand that accidents happen, but if you damage something, let us know immediately and we shall arrange for its replacement or repair.\n\n6. Smoking is not allowed inside the house. You may use the balcony for that purpose.",
+                                                   "recommendedNumberOfLines": 5,
+                                                   "minimumNumberOfLinesForTruncation": 5,
+                                                   "readMoreButton": {
+                                                       "__typename": "Button",
+                                                       "accessibilityLabel": null,
+                                                       "title": "Show more",
+                                                       "loggingData": {
+                                                           "__typename": "LoggingEventData",
+                                                           "loggingId": "pdp.policies.duringYourStay.additionalRules"
+                                                       }
+                                                   }
+                                               }
+                                           }
+                                       ]
+                                   },
+                                   {
+                                       "__typename": "GeneralListContentSection",
+                                       "loggingEventData": {
+                                           "__typename": "LoggingEventData",
+                                           "loggingId": "pdp.policies.beforeYouLeave"
+                                       },
+                                       "title": "Before you leave",
+                                       "items": [
+                                           {
+                                               "__typename": "BasicListItem",
+                                               "loggingEventData": null,
+                                               "title": "Gather used towels",
+                                               "subtitle": null,
+                                               "icon": "SYSTEM_TOWEL",
+                                               "html": null
+                                           },
+                                           {
+                                               "__typename": "BasicListItem",
+                                               "loggingEventData": null,
+                                               "title": "Throw rubbish away",
+                                               "subtitle": null,
+                                               "icon": "SYSTEM_TRASH",
+                                               "html": null
+                                           },
+                                           {
+                                               "__typename": "BasicListItem",
+                                               "loggingEventData": null,
+                                               "title": "Turn things off",
+                                               "subtitle": null,
+                                               "icon": "SYSTEM_POWER_SWITCH",
+                                               "html": null
+                                           },
+                                           {
+                                               "__typename": "BasicListItem",
+                                               "loggingEventData": null,
+                                               "title": "Return keys",
+                                               "subtitle": null,
+                                               "icon": "SYSTEM_HOST_OWNERS",
+                                               "html": null
+                                           }
+                                       ]
+                                   }
+                               ],
+                               "safetyAndPropertySubtitle": "Avoid surprises by looking over these important details about your Host's property.",
+                               "safetyAndPropertiesTranslationDisclaimer": null,
+                               "safetyAndPropertiesSections": [
+                                   {
+                                       "__typename": "GeneralListContentSection",
+                                       "loggingEventData": null,
+                                       "title": "Safety devices",
+                                       "items": [
+                                           {
+                                               "__typename": "BasicListItem",
+                                               "loggingEventData": null,
+                                               "title": "Exterior security cameras on property",
+                                               "subtitle": "“We have security cameras in the corridor and entrance.”",
+                                               "icon": "SYSTEM_SURVEILLANCE",
+                                               "html": null
+                                           },
+                                           {
+                                               "__typename": "BasicListItem",
+                                               "loggingEventData": null,
+                                               "title": "No carbon monoxide alarm",
+                                               "subtitle": null,
+                                               "icon": "SYSTEM_NO_DETECTOR_CO2",
+                                               "html": null
+                                           },
+                                           {
+                                               "__typename": "BasicListItem",
+                                               "loggingEventData": null,
+                                               "title": "No smoke alarm",
+                                               "subtitle": null,
+                                               "icon": "SYSTEM_NO_DETECTOR_SMOKE",
+                                               "html": null
+                                           }
+                                       ]
+                                   },
+                                   {
+                                       "__typename": "GeneralListContentSection",
+                                       "loggingEventData": null,
+                                       "title": "Property info",
+                                       "items": [
+                                           {
+                                               "__typename": "BasicListItem",
+                                               "loggingEventData": null,
+                                               "title": "Potential for noise",
+                                               "subtitle": null,
+                                               "icon": "SYSTEM_AV_VOLUME",
+                                               "html": null
+                                           },
+                                           {
+                                               "__typename": "BasicListItem",
+                                               "loggingEventData": null,
+                                               "title": "Must climb stairs",
+                                               "subtitle": null,
+                                               "icon": "SYSTEM_STAIRS",
+                                               "html": null
+                                           },
+                                           {
+                                               "__typename": "BasicListItem",
+                                               "loggingEventData": null,
+                                               "title": "No parking on property",
+                                               "subtitle": null,
+                                               "icon": "SYSTEM_NO_PARKING",
+                                               "html": null
+                                           }
+                                       ]
+                                   }
+                               ]
+                           }
+                       },
+                       {
+                           "__typename": "SectionContainer",
+                           "id": "U2VjdGlvbkNvbnRhaW5lcjozOTc5Nzg1MDQ1MDAyMDk0Mjc=",
+                           "sectionComponentType": "BOOK_IT_SIDEBAR",
+                           "sectionContentStatus": "COMPLETE",
+                           "sectionId": "BOOK_IT_SIDEBAR",
+                           "errors": null,
+                           "sectionDependencies": [
+                               "BOOKING"
+                           ],
+                           "enableDependencies": null,
+                           "disableDependencies": null,
+                           "loggingData": {
+                               "__typename": "LoggingEventData",
+                               "loggingId": "pdp_platform.book_it_sidebar",
+                               "experiments": [],
+                               "eventData": null,
+                               "eventDataSchemaName": null,
+                               "section": null,
+                               "component": null
+                           },
+                           "e2eLoggingSession": null,
+                           "mutationMetadata": null,
+                           "pluginPointId": "BOOK_IT_SIDEBAR",
+                           "section": {
+                               "__typename": "BookItSection",
+                               "subpageIdToOpen": null,
+                               "showPriceBreakdown": true,
+                               "cancellationPolicyLoggingEventData": {
+                                   "__typename": "LoggingEventData",
+                                   "loggingId": "pdp.bookItSidebar.cancellationPolicyInput",
+                                   "experiments": null,
+                                   "eventData": null,
+                                   "eventDataSchemaName": null,
+                                   "section": null,
+                                   "component": null
+                               },
+                               "calendarTitle": "Select dates",
+                               "calendarSubtitle": "Add your travel dates for exact pricing",
+                               "descriptionItems": null,
+                               "discountCopy": null,
+                               "maxGuestCapacity": 4,
+                               "maxPlusValue": 16,
+                               "tripDetailsLoggingEventData": {
+                                   "__typename": "CalendarLoggingEventData",
+                                   "clearDatesButton": {
+                                       "__typename": "BasicListItem",
+                                       "title": "Clear dates",
+                                       "loggingEventData": {
+                                           "__typename": "LoggingEventData",
+                                           "loggingId": "pdp.bookItSidebar.clearDates",
+                                           "experiments": null,
+                                           "eventData": null,
+                                           "eventDataSchemaName": null,
+                                           "section": "bookItSidebar",
+                                           "component": "clearDates"
+                                       }
+                                   },
+                                   "saveDatesButton": {
+                                       "__typename": "BasicListItem",
+                                       "title": "Close",
+                                       "loggingEventData": {
+                                           "__typename": "LoggingEventData",
+                                           "loggingId": "pdp.bookItSidebar.saveDates",
+                                           "experiments": null,
+                                           "eventData": null,
+                                           "eventDataSchemaName": null,
+                                           "section": "bookItSidebar",
+                                           "component": "saveDates"
+                                       }
+                                   },
+                                   "datesInputLoggingEventData": null,
+                                   "selectDateLoggingEventData": {
+                                       "__typename": "LoggingEventData",
+                                       "loggingId": "pdp.bookItSidebar.selectDate",
+                                       "experiments": null,
+                                       "eventData": null,
+                                       "eventDataSchemaName": null,
+                                       "section": "bookItSidebar",
+                                       "component": "selectDate"
+                                   },
+                                   "previousMonthLoggingEventData": {
+                                       "__typename": "LoggingEventData",
+                                       "loggingId": "pdp.bookItSidebar.monthsNavPrevious",
+                                       "experiments": null,
+                                       "eventData": null,
+                                       "eventDataSchemaName": null,
+                                       "section": "bookItSidebar",
+                                       "component": "monthsNavPrevious"
+                                   },
+                                   "nextMonthLoggingEventData": {
+                                       "__typename": "LoggingEventData",
+                                       "loggingId": "pdp.bookItSidebar.monthsNavNext",
+                                       "experiments": null,
+                                       "eventData": null,
+                                       "eventDataSchemaName": null,
+                                       "section": "bookItSidebar",
+                                       "component": "monthsNavNext"
+                                   },
+                                   "checkInDateInputLoggingEventData": {
+                                       "__typename": "LoggingEventData",
+                                       "loggingId": "pdp.bookItSidebar.checkInInput",
+                                       "experiments": null,
+                                       "eventData": null,
+                                       "eventDataSchemaName": null,
+                                       "section": "bookItSidebar",
+                                       "component": "checkInInput"
+                                   },
+                                   "checkOutDateInputLoggingEventData": {
+                                       "__typename": "LoggingEventData",
+                                       "loggingId": "pdp.bookItSidebar.checkOutInput",
+                                       "experiments": null,
+                                       "eventData": null,
+                                       "eventDataSchemaName": null,
+                                       "section": "bookItSidebar",
+                                       "component": "checkOutInput"
+                                   },
+                                   "guestInputLoggingEventData": {
+                                       "__typename": "LoggingEventData",
+                                       "loggingId": "pdp.bookItSidebar.guestInput",
+                                       "experiments": null,
+                                       "eventData": null,
+                                       "eventDataSchemaName": null,
+                                       "section": "bookItSidebar",
+                                       "component": "guestInput"
+                                   },
+                                   "cancellationPolicyLoggingEventData": null,
+                                   "changeDatesButtonLoggingEventData": {
+                                       "__typename": "LoggingEventData",
+                                       "loggingId": "pdp.bookItSidebar.changeDatesButton",
+                                       "experiments": null,
+                                       "eventData": null,
+                                       "eventDataSchemaName": null,
+                                       "section": "bookItSidebar",
+                                       "component": "changeDatesButton"
+                                   },
+                                   "selectCheckOutOnlyDateLoggingEventData": {
+                                       "__typename": "LoggingEventData",
+                                       "loggingId": "pdp.bookItSidebar.selectCheckOutOnlyDate",
+                                       "experiments": null,
+                                       "eventData": null,
+                                       "eventDataSchemaName": null,
+                                       "section": "bookItSidebar",
+                                       "component": "selectCheckOutOnlyDate"
+                                   },
+                                   "selectMaxNightsViolationDateLoggingEventData": {
+                                       "__typename": "LoggingEventData",
+                                       "loggingId": "pdp.bookItSidebar.selectMaxNightsViolationDate",
+                                       "experiments": null,
+                                       "eventData": null,
+                                       "eventDataSchemaName": null,
+                                       "section": "bookItSidebar",
+                                       "component": "selectMaxNightsViolationDate"
+                                   },
+                                   "selectMinNightsViolationDateLoggingEventData": {
+                                       "__typename": "LoggingEventData",
+                                       "loggingId": "pdp.bookItSidebar.selectMinNightsViolationDate",
+                                       "experiments": null,
+                                       "eventData": null,
+                                       "eventDataSchemaName": null,
+                                       "section": "bookItSidebar",
+                                       "component": "selectMinNightsViolationDate"
+                                   },
+                                   "selectUnavailableForCheckInDateLoggingEventData": {
+                                       "__typename": "LoggingEventData",
+                                       "loggingId": "pdp.bookItSidebar.selectUnavailableForCheckInDate",
+                                       "experiments": null,
+                                       "eventData": null,
+                                       "eventDataSchemaName": null,
+                                       "section": "bookItSidebar",
+                                       "component": "selectUnavailableForCheckInDate"
+                                   },
+                                   "selectUnavailableForCheckoutDateLoggingEventData": {
+                                       "__typename": "LoggingEventData",
+                                       "loggingId": "pdp.bookItSidebar.selectUnavailableForCheckoutDate",
+                                       "experiments": null,
+                                       "eventData": null,
+                                       "eventDataSchemaName": null,
+                                       "section": "bookItSidebar",
+                                       "component": "selectUnavailableForCheckoutDate"
+                                   }
+                               },
+                               "reviewItem": null,
+                               "available": false,
+                               "structuredDisplayPrice": null,
+                               "discountData": null,
+                               "bookItButtonByPlacement": {
+                                   "__typename": "BookItButtonByPlacement",
+                                   "footerButton": {
+                                       "__typename": "BasicListItem",
+                                       "title": "Change dates",
+                                       "action": null,
+                                       "loggingEventData": {
+                                           "__typename": "LoggingEventData",
+                                           "loggingId": "pdp.stickyFooter.openCalendar",
+                                           "experiments": null,
+                                           "eventData": null,
+                                           "eventDataSchemaName": null,
+                                           "section": "stickyFooter",
+                                           "component": "openCalendar"
+                                       },
+                                       "button": null
+                                   },
+                                   "sideBarButton": {
+                                       "__typename": "BasicListItem",
+                                       "title": "Change dates",
+                                       "action": null,
+                                       "loggingEventData": {
+                                           "__typename": "LoggingEventData",
+                                           "loggingId": "pdp.sideBar.openCalendar",
+                                           "experiments": null,
+                                           "eventData": null,
+                                           "eventDataSchemaName": null,
+                                           "section": "sideBar",
+                                           "component": "openCalendar"
+                                       },
+                                       "button": null
+                                   },
+                                   "stickyNavButton": {
+                                       "__typename": "BasicListItem",
+                                       "title": "Change dates",
+                                       "action": null,
+                                       "loggingEventData": {
+                                           "__typename": "LoggingEventData",
+                                           "loggingId": "pdp.stickyNav.openCalendar",
+                                           "experiments": null,
+                                           "eventData": null,
+                                           "eventDataSchemaName": null,
+                                           "section": "stickyNav",
+                                           "component": "openCalendar"
+                                       },
+                                       "button": null
+                                   },
+                                   "calendarFooterButton": {
+                                       "__typename": "BasicListItem",
+                                       "title": "Save",
+                                       "action": null,
+                                       "loggingEventData": {
+                                           "__typename": "LoggingEventData",
+                                           "loggingId": "pdp.stickyFooter.save",
+                                           "experiments": null,
+                                           "eventData": null,
+                                           "eventDataSchemaName": null,
+                                           "section": "stickyFooter",
+                                           "component": "save"
+                                       },
+                                       "button": null
+                                   },
+                                   "priceDetailFooterButton": null
+                               },
+                               "cancellationPolicies": null,
+                               "cancellationPolicyForDisplay": null,
+                               "localizedUnavailabilityMessage": "Those dates are not available",
+                               "localizedUnavailabilityMessagePositionString": "DATE",
+                               "priceDisclaimer": null,
+                               "selectedDatesLink": null,
+                               "selectedNights": null,
+                               "bookItButtonLayout": null,
+                               "productItemDetail": null,
+                               "ratePlanLoggingEventData": {
+                                   "__typename": "LoggingEventData",
+                                   "loggingId": "pdp.bookItSidebar.ratePlanInput",
+                                   "experiments": null,
+                                   "eventData": null,
+                                   "eventDataSchemaName": null,
+                                   "section": null,
+                                   "component": null
+                               },
+                               "ratePlanTitle": null,
+                               "promotionBanner": null,
+                               "guestDisclaimer": "This place has a maximum of 4 guests, not including infants. Pets aren't allowed.",
+                               "petsAllowed": false,
+                               "petDetails": {
+                                   "__typename": "GuestPickerPetDetails",
+                                   "maxPetCount": 5,
+                                   "petDisclaimerText": "Bringing a service animal?",
+                                   "petSubtitleAction": {
+                                       "__typename": "NavigateToScreen",
+                                       "loggingData": {
+                                           "__typename": "LoggingEventData",
+                                           "loggingId": "pdp.bookItSidebar.petModal",
+                                           "eventData": null,
+                                           "eventDataSchemaName": null,
+                                           "section": "bookItSidebar",
+                                           "component": "petModal"
+                                       },
+                                       "url": null,
+                                       "screenId": "WHAT_COUNTS_AS_A_PET_MODAL",
+                                       "itemId": null
+                                   }
+                               },
+                               "adultsPicker": {
+                                   "__typename": "GuestPickerSection",
+                                   "title": "Adults",
+                                   "subtitle": "Age 13+"
+                               },
+                               "childrenPicker": {
+                                   "__typename": "GuestPickerSection",
+                                   "title": "Children",
+                                   "subtitle": "Ages 2–12"
+                               },
+                               "infantsPicker": {
+                                   "__typename": "GuestPickerSection",
+                                   "title": "Infants",
+                                   "subtitle": "Under 2"
+                               },
+                               "canInstantBook": false,
+                               "highlightBanner": null,
+                               "integratedPill": null,
+                               "initialPillMessageType": "LOWER_PRICE",
+                               "initialPill": {
+                                   "__typename": "BasicListItem",
+                                   "animatedIcon": {
+                                       "__typename": "AnimatedIcon",
+                                       "iconUrl": "https://a0.muscache.com/pictures/airbnb-platform-assets/AirbnbPlatformAssets-Tips/original/37da5952-38f8-4a2a-a040-44a405709035.json",
+                                       "iconPrimaryRange": {
+                                           "__typename": "TwoDimensionalRange",
+                                           "x": {
+                                               "__typename": "Range",
+                                               "startValue": 0.175676,
+                                               "endValue": 0.824324
+                                           },
+                                           "y": {
+                                               "__typename": "Range",
+                                               "startValue": 0.175676,
+                                               "endValue": 0.824324
+                                           }
+                                       }
+                                   },
+                                   "icon": null,
+                                   "shortTitle": null,
+                                   "subtitle": null,
+                                   "title": "Your price is below the 60-day average",
+                                   "loggingEventData": {
+                                       "__typename": "LoggingEventData",
+                                       "loggingId": "pdp.bookItSidebar.initialPill",
+                                       "experiments": null,
+                                       "eventData": {
+                                           "message_type": "LOWER_PRICE"
+                                       },
+                                       "eventDataSchemaName": null,
+                                       "section": null,
+                                       "component": null
+                                   }
+                               },
+                               "availabilityPriceDetailEntry": null,
+                               "priceDetailLoggingEventData": null
+                           }
+                       },
+                       {
+                           "__typename": "SectionContainer",
+                           "id": "U2VjdGlvbkNvbnRhaW5lcjotMTUyNTk0MzQyNTgzMjA4MTIzMQ==",
+                           "sectionComponentType": "URGENCY_COMMITMENT",
+                           "sectionContentStatus": "SHOULD_HIDE",
+                           "sectionId": "URGENCY_COMMITMENT_SIDEBAR",
+                           "errors": null,
+                           "sectionDependencies": [
+                               "BOOKING"
+                           ],
+                           "enableDependencies": null,
+                           "disableDependencies": null,
+                           "loggingData": {
+                               "__typename": "LoggingEventData",
+                               "loggingId": "pdp_platform.urgency_commitment_sidebar",
+                               "experiments": [],
+                               "eventData": null,
+                               "eventDataSchemaName": null,
+                               "section": null,
+                               "component": null
+                           },
+                           "e2eLoggingSession": null,
+                           "mutationMetadata": null,
+                           "pluginPointId": "URGENCY_COMMITMENT_SIDEBAR",
+                           "section": null
+                       },
+                       {
+                           "__typename": "SectionContainer",
+                           "id": "U2VjdGlvbkNvbnRhaW5lcjotOTA4NjcwOTY0Mzg2NjU3MzQ0OQ==",
+                           "sectionComponentType": "BOOK_IT_NAV",
+                           "sectionContentStatus": "COMPLETE",
+                           "sectionId": "BOOK_IT_NAV",
+                           "errors": null,
+                           "sectionDependencies": [
+                               "BOOKING"
+                           ],
+                           "enableDependencies": null,
+                           "disableDependencies": null,
+                           "loggingData": {
+                               "__typename": "LoggingEventData",
+                               "loggingId": "pdp_platform.book_it_nav",
+                               "experiments": [],
+                               "eventData": null,
+                               "eventDataSchemaName": null,
+                               "section": null,
+                               "component": null
+                           },
+                           "e2eLoggingSession": null,
+                           "mutationMetadata": null,
+                           "pluginPointId": "BOOK_IT_NAV",
+                           "section": {
+                               "__typename": "BookItSection",
+                               "subpageIdToOpen": null,
+                               "showPriceBreakdown": false,
+                               "cancellationPolicyLoggingEventData": null,
+                               "calendarTitle": null,
+                               "calendarSubtitle": null,
+                               "descriptionItems": null,
+                               "discountCopy": null,
+                               "maxGuestCapacity": null,
+                               "maxPlusValue": null,
+                               "tripDetailsLoggingEventData": null,
+                               "reviewItem": {
+                                   "__typename": "BasicListItem",
+                                   "accessibilityLabel": "Rated 4.82 out of 5 from 134 reviews.",
+                                   "action": null,
+                                   "icon": "COMPACT_STAR",
+                                   "subtitle": "134 reviews",
+                                   "title": "4.82 ·"
+                               },
+                               "available": false,
+                               "structuredDisplayPrice": null,
+                               "discountData": null,
+                               "bookItButtonByPlacement": {
+                                   "__typename": "BookItButtonByPlacement",
+                                   "footerButton": {
+                                       "__typename": "BasicListItem",
+                                       "title": "Change dates",
+                                       "action": null,
+                                       "loggingEventData": {
+                                           "__typename": "LoggingEventData",
+                                           "loggingId": "pdp.stickyFooter.openCalendar",
+                                           "experiments": null,
+                                           "eventData": null,
+                                           "eventDataSchemaName": null,
+                                           "section": "stickyFooter",
+                                           "component": "openCalendar"
+                                       },
+                                       "button": null
+                                   },
+                                   "sideBarButton": {
+                                       "__typename": "BasicListItem",
+                                       "title": "Change dates",
+                                       "action": null,
+                                       "loggingEventData": {
+                                           "__typename": "LoggingEventData",
+                                           "loggingId": "pdp.sideBar.openCalendar",
+                                           "experiments": null,
+                                           "eventData": null,
+                                           "eventDataSchemaName": null,
+                                           "section": "sideBar",
+                                           "component": "openCalendar"
+                                       },
+                                       "button": null
+                                   },
+                                   "stickyNavButton": {
+                                       "__typename": "BasicListItem",
+                                       "title": "Change dates",
+                                       "action": null,
+                                       "loggingEventData": {
+                                           "__typename": "LoggingEventData",
+                                           "loggingId": "pdp.stickyNav.openCalendar",
+                                           "experiments": null,
+                                           "eventData": null,
+                                           "eventDataSchemaName": null,
+                                           "section": "stickyNav",
+                                           "component": "openCalendar"
+                                       },
+                                       "button": null
+                                   },
+                                   "calendarFooterButton": {
+                                       "__typename": "BasicListItem",
+                                       "title": "Save",
+                                       "action": null,
+                                       "loggingEventData": {
+                                           "__typename": "LoggingEventData",
+                                           "loggingId": "pdp.stickyFooter.save",
+                                           "experiments": null,
+                                           "eventData": null,
+                                           "eventDataSchemaName": null,
+                                           "section": "stickyFooter",
+                                           "component": "save"
+                                       },
+                                       "button": null
+                                   },
+                                   "priceDetailFooterButton": null
+                               },
+                               "cancellationPolicies": null,
+                               "cancellationPolicyForDisplay": null,
+                               "localizedUnavailabilityMessage": "Those dates are not available",
+                               "localizedUnavailabilityMessagePositionString": "DATE",
+                               "priceDisclaimer": null,
+                               "selectedDatesLink": null,
+                               "selectedNights": null,
+                               "bookItButtonLayout": null,
+                               "productItemDetail": null,
+                               "ratePlanLoggingEventData": null,
+                               "ratePlanTitle": null,
+                               "promotionBanner": null,
+                               "guestDisclaimer": null,
+                               "petsAllowed": null,
+                               "petDetails": null,
+                               "adultsPicker": null,
+                               "childrenPicker": null,
+                               "infantsPicker": null,
+                               "canInstantBook": false,
+                               "highlightBanner": null,
+                               "integratedPill": null,
+                               "initialPillMessageType": null,
+                               "initialPill": null,
+                               "availabilityPriceDetailEntry": null,
+                               "priceDetailLoggingEventData": null
+                           }
+                       },
+                       {
+                           "__typename": "SectionContainer",
+                           "id": "U2VjdGlvbkNvbnRhaW5lcjotNzkwMjE2NzAxNDIwNzM2NjMzMg==",
+                           "sectionComponentType": "BOOK_IT_FLOATING_FOOTER",
+                           "sectionContentStatus": "COMPLETE",
+                           "sectionId": "BOOK_IT_FLOATING_FOOTER",
+                           "errors": null,
+                           "sectionDependencies": [
+                               "BOOKING"
+                           ],
+                           "enableDependencies": null,
+                           "disableDependencies": null,
+                           "loggingData": {
+                               "__typename": "LoggingEventData",
+                               "loggingId": "pdp_platform.book_it_floating_footer",
+                               "experiments": [],
+                               "eventData": null,
+                               "eventDataSchemaName": null,
+                               "section": null,
+                               "component": null
+                           },
+                           "e2eLoggingSession": null,
+                           "mutationMetadata": null,
+                           "pluginPointId": "BOOK_IT_FLOATING_FOOTER",
+                           "section": {
+                               "__typename": "BookItSection",
+                               "subpageIdToOpen": null,
+                               "showPriceBreakdown": false,
+                               "cancellationPolicyLoggingEventData": null,
+                               "calendarTitle": null,
+                               "calendarSubtitle": null,
+                               "descriptionItems": null,
+                               "discountCopy": null,
+                               "maxGuestCapacity": null,
+                               "maxPlusValue": null,
+                               "tripDetailsLoggingEventData": null,
+                               "reviewItem": null,
+                               "available": false,
+                               "structuredDisplayPrice": null,
+                               "discountData": null,
+                               "bookItButtonByPlacement": {
+                                   "__typename": "BookItButtonByPlacement",
+                                   "footerButton": {
+                                       "__typename": "BasicListItem",
+                                       "title": "Change dates",
+                                       "action": null,
+                                       "loggingEventData": {
+                                           "__typename": "LoggingEventData",
+                                           "loggingId": "pdp.stickyFooter.openCalendar",
+                                           "experiments": null,
+                                           "eventData": null,
+                                           "eventDataSchemaName": null,
+                                           "section": "stickyFooter",
+                                           "component": "openCalendar"
+                                       },
+                                       "button": null
+                                   },
+                                   "sideBarButton": {
+                                       "__typename": "BasicListItem",
+                                       "title": "Change dates",
+                                       "action": null,
+                                       "loggingEventData": {
+                                           "__typename": "LoggingEventData",
+                                           "loggingId": "pdp.sideBar.openCalendar",
+                                           "experiments": null,
+                                           "eventData": null,
+                                           "eventDataSchemaName": null,
+                                           "section": "sideBar",
+                                           "component": "openCalendar"
+                                       },
+                                       "button": null
+                                   },
+                                   "stickyNavButton": {
+                                       "__typename": "BasicListItem",
+                                       "title": "Change dates",
+                                       "action": null,
+                                       "loggingEventData": {
+                                           "__typename": "LoggingEventData",
+                                           "loggingId": "pdp.stickyNav.openCalendar",
+                                           "experiments": null,
+                                           "eventData": null,
+                                           "eventDataSchemaName": null,
+                                           "section": "stickyNav",
+                                           "component": "openCalendar"
+                                       },
+                                       "button": null
+                                   },
+                                   "calendarFooterButton": {
+                                       "__typename": "BasicListItem",
+                                       "title": "Save",
+                                       "action": null,
+                                       "loggingEventData": {
+                                           "__typename": "LoggingEventData",
+                                           "loggingId": "pdp.stickyFooter.save",
+                                           "experiments": null,
+                                           "eventData": null,
+                                           "eventDataSchemaName": null,
+                                           "section": "stickyFooter",
+                                           "component": "save"
+                                       },
+                                       "button": null
+                                   },
+                                   "priceDetailFooterButton": null
+                               },
+                               "cancellationPolicies": null,
+                               "cancellationPolicyForDisplay": null,
+                               "localizedUnavailabilityMessage": "Those dates are not available",
+                               "localizedUnavailabilityMessagePositionString": "DATE",
+                               "priceDisclaimer": null,
+                               "selectedDatesLink": {
+                                   "__typename": "BasicListItem",
+                                   "title": "29–31 Mar",
+                                   "action": {
+                                       "__typename": "OpenAvailabilityCalendarAction",
+                                       "loggingData": {
+                                           "__typename": "LoggingEventData",
+                                           "loggingId": "pdp.bookItFooter.selectedDatesLink",
+                                           "eventData": null,
+                                           "eventDataSchemaName": null,
+                                           "section": null,
+                                           "component": null
+                                       }
+                                   }
+                               },
+                               "selectedNights": null,
+                               "bookItButtonLayout": "RIGHT_ALIGNED",
+                               "productItemDetail": null,
+                               "ratePlanLoggingEventData": null,
+                               "ratePlanTitle": null,
+                               "promotionBanner": null,
+                               "guestDisclaimer": null,
+                               "petsAllowed": null,
+                               "petDetails": null,
+                               "adultsPicker": null,
+                               "childrenPicker": null,
+                               "infantsPicker": null,
+                               "canInstantBook": false,
+                               "highlightBanner": null,
+                               "integratedPill": null,
+                               "initialPillMessageType": "LOWER_PRICE",
+                               "initialPill": {
+                                   "__typename": "BasicListItem",
+                                   "animatedIcon": {
+                                       "__typename": "AnimatedIcon",
+                                       "iconUrl": "https://a0.muscache.com/pictures/airbnb-platform-assets/AirbnbPlatformAssets-Tips/original/37da5952-38f8-4a2a-a040-44a405709035.json",
+                                       "iconPrimaryRange": {
+                                           "__typename": "TwoDimensionalRange",
+                                           "x": {
+                                               "__typename": "Range",
+                                               "startValue": 0.175676,
+                                               "endValue": 0.824324
+                                           },
+                                           "y": {
+                                               "__typename": "Range",
+                                               "startValue": 0.175676,
+                                               "endValue": 0.824324
+                                           }
+                                       }
+                                   },
+                                   "icon": null,
+                                   "shortTitle": null,
+                                   "subtitle": null,
+                                   "title": "Your price is below the 60-day average",
+                                   "loggingEventData": {
+                                       "__typename": "LoggingEventData",
+                                       "loggingId": "pdp.bookItFooter.initialPill",
+                                       "experiments": null,
+                                       "eventData": {
+                                           "message_type": "LOWER_PRICE"
+                                       },
+                                       "eventDataSchemaName": null,
+                                       "section": null,
+                                       "component": null
+                                   }
+                               },
+                               "availabilityPriceDetailEntry": null,
+                               "priceDetailLoggingEventData": null
+                           }
+                       },
+                       {
+                           "__typename": "SectionContainer",
+                           "id": "U2VjdGlvbkNvbnRhaW5lcjotMjQ0ODI4Mzc1OTUxMzAxMTIxMA==",
+                           "sectionComponentType": "EDUCATION_FOOTER_BANNER",
+                           "sectionContentStatus": "SHOULD_HIDE",
+                           "sectionId": "EDUCATION_FOOTER_BANNER",
+                           "errors": null,
+                           "sectionDependencies": [
+                               "BOOKING"
+                           ],
+                           "enableDependencies": null,
+                           "disableDependencies": null,
+                           "loggingData": {
+                               "__typename": "LoggingEventData",
+                               "loggingId": "pdp_platform.education_footer_banner",
+                               "experiments": [],
+                               "eventData": null,
+                               "eventDataSchemaName": null,
+                               "section": null,
+                               "component": null
+                           },
+                           "e2eLoggingSession": null,
+                           "mutationMetadata": null,
+                           "pluginPointId": "EDUCATION_FOOTER_BANNER",
+                           "section": null
+                       },
+                       {
+                           "__typename": "SectionContainer",
+                           "id": "U2VjdGlvbkNvbnRhaW5lcjotNTUxMzAyNDI2ODM0MjQxODIzMw==",
+                           "sectionComponentType": "URGENCY_COMMITMENT",
+                           "sectionContentStatus": "SHOULD_HIDE",
+                           "sectionId": "URGENCY_COMMITMENT",
+                           "errors": null,
+                           "sectionDependencies": [
+                               "BOOKING"
+                           ],
+                           "enableDependencies": null,
+                           "disableDependencies": null,
+                           "loggingData": {
+                               "__typename": "LoggingEventData",
+                               "loggingId": "pdp_platform.urgency_commitment",
+                               "experiments": [],
+                               "eventData": null,
+                               "eventDataSchemaName": null,
+                               "section": null,
+                               "component": null
+                           },
+                           "e2eLoggingSession": null,
+                           "mutationMetadata": null,
+                           "pluginPointId": "URGENCY_COMMITMENT",
+                           "section": null
+                       },
+                       {
+                           "__typename": "SectionContainer",
+                           "id": "U2VjdGlvbkNvbnRhaW5lcjo1MTgxNzQ2MzExNzQyMDEyNjM4",
+                           "sectionComponentType": "CANCELLATION_POLICY_PICKER_MODAL",
+                           "sectionContentStatus": "COMPLETE",
+                           "sectionId": "CANCELLATION_POLICY_PICKER_MODAL",
+                           "errors": null,
+                           "sectionDependencies": [
+                               "CHECK_IN",
+                               "CHECK_OUT",
+                               "BOOKING"
+                           ],
+                           "enableDependencies": null,
+                           "disableDependencies": null,
+                           "loggingData": {
+                               "__typename": "LoggingEventData",
+                               "loggingId": "pdp_platform.cancellation_policy_picker_modal",
+                               "experiments": [],
+                               "eventData": null,
+                               "eventDataSchemaName": null,
+                               "section": null,
+                               "component": null
+                           },
+                           "e2eLoggingSession": null,
+                           "mutationMetadata": null,
+                           "pluginPointId": "CANCELLATION_POLICY_PICKER_MODAL",
+                           "section": {
+                               "__typename": "CancellationPolicyPickerSection",
+                               "title": "Choose a cancellation policy",
+                               "button": {
+                                   "__typename": "Button",
+                                   "title": "Continue",
+                                   "action": null
+                               },
+                               "optionalityPriceDetail": null
+                           }
+                       },
+                       {
+                           "__typename": "SectionContainer",
+                           "id": "U2VjdGlvbkNvbnRhaW5lcjo2MDc2NzU0ODcwOTU4ODE5MDI3",
+                           "sectionComponentType": "BOOK_IT_CALENDAR_SHEET",
+                           "sectionContentStatus": "COMPLETE",
+                           "sectionId": "BOOK_IT_CALENDAR_SHEET",
+                           "errors": null,
+                           "sectionDependencies": [
+                               "BOOKING"
+                           ],
+                           "enableDependencies": null,
+                           "disableDependencies": null,
+                           "loggingData": {
+                               "__typename": "LoggingEventData",
+                               "loggingId": "pdp_platform.book_it_calendar_sheet",
+                               "experiments": [],
+                               "eventData": null,
+                               "eventDataSchemaName": null,
+                               "section": null,
+                               "component": null
+                           },
+                           "e2eLoggingSession": null,
+                           "mutationMetadata": null,
+                           "pluginPointId": "BOOK_IT_CALENDAR_SHEET",
+                           "section": {
+                               "__typename": "BookItSection",
+                               "subpageIdToOpen": null,
+                               "showPriceBreakdown": false,
+                               "cancellationPolicyLoggingEventData": null,
+                               "calendarTitle": null,
+                               "calendarSubtitle": null,
+                               "descriptionItems": null,
+                               "discountCopy": null,
+                               "maxGuestCapacity": null,
+                               "maxPlusValue": null,
+                               "tripDetailsLoggingEventData": null,
+                               "reviewItem": {
+                                   "__typename": "BasicListItem",
+                                   "accessibilityLabel": "Rated 4.82 out of 5 from 134 reviews.",
+                                   "action": null,
+                                   "icon": "COMPACT_STAR",
+                                   "subtitle": null,
+                                   "title": "4.82"
+                               },
+                               "available": false,
+                               "structuredDisplayPrice": null,
+                               "discountData": null,
+                               "bookItButtonByPlacement": {
+                                   "__typename": "BookItButtonByPlacement",
+                                   "footerButton": {
+                                       "__typename": "BasicListItem",
+                                       "title": "Change dates",
+                                       "action": null,
+                                       "loggingEventData": {
+                                           "__typename": "LoggingEventData",
+                                           "loggingId": "pdp.stickyFooter.openCalendar",
+                                           "experiments": null,
+                                           "eventData": null,
+                                           "eventDataSchemaName": null,
+                                           "section": "stickyFooter",
+                                           "component": "openCalendar"
+                                       },
+                                       "button": null
+                                   },
+                                   "sideBarButton": {
+                                       "__typename": "BasicListItem",
+                                       "title": "Change dates",
+                                       "action": null,
+                                       "loggingEventData": {
+                                           "__typename": "LoggingEventData",
+                                           "loggingId": "pdp.sideBar.openCalendar",
+                                           "experiments": null,
+                                           "eventData": null,
+                                           "eventDataSchemaName": null,
+                                           "section": "sideBar",
+                                           "component": "openCalendar"
+                                       },
+                                       "button": null
+                                   },
+                                   "stickyNavButton": {
+                                       "__typename": "BasicListItem",
+                                       "title": "Change dates",
+                                       "action": null,
+                                       "loggingEventData": {
+                                           "__typename": "LoggingEventData",
+                                           "loggingId": "pdp.stickyNav.openCalendar",
+                                           "experiments": null,
+                                           "eventData": null,
+                                           "eventDataSchemaName": null,
+                                           "section": "stickyNav",
+                                           "component": "openCalendar"
+                                       },
+                                       "button": null
+                                   },
+                                   "calendarFooterButton": {
+                                       "__typename": "BasicListItem",
+                                       "title": "Save",
+                                       "action": null,
+                                       "loggingEventData": {
+                                           "__typename": "LoggingEventData",
+                                           "loggingId": "pdp.stickyFooter.save",
+                                           "experiments": null,
+                                           "eventData": null,
+                                           "eventDataSchemaName": null,
+                                           "section": "stickyFooter",
+                                           "component": "save"
+                                       },
+                                       "button": null
+                                   },
+                                   "priceDetailFooterButton": null
+                               },
+                               "cancellationPolicies": null,
+                               "cancellationPolicyForDisplay": null,
+                               "localizedUnavailabilityMessage": "Those dates are not available",
+                               "localizedUnavailabilityMessagePositionString": "DATE",
+                               "priceDisclaimer": null,
+                               "selectedDatesLink": null,
+                               "selectedNights": null,
+                               "bookItButtonLayout": null,
+                               "productItemDetail": null,
+                               "ratePlanLoggingEventData": null,
+                               "ratePlanTitle": null,
+                               "promotionBanner": null,
+                               "guestDisclaimer": "This place has a maximum of 4 guests, not including infants. Pets aren't allowed.",
+                               "petsAllowed": false,
+                               "petDetails": {
+                                   "__typename": "GuestPickerPetDetails",
+                                   "maxPetCount": 5,
+                                   "petDisclaimerText": "Bringing a service animal?",
+                                   "petSubtitleAction": {
+                                       "__typename": "NavigateToScreen",
+                                       "loggingData": {
+                                           "__typename": "LoggingEventData",
+                                           "loggingId": "pdp.bookItCalendarSheet.petModal",
+                                           "eventData": null,
+                                           "eventDataSchemaName": null,
+                                           "section": "bookItCalendarSheet",
+                                           "component": "petModal"
+                                       },
+                                       "url": null,
+                                       "screenId": "WHAT_COUNTS_AS_A_PET_MODAL",
+                                       "itemId": null
+                                   }
+                               },
+                               "adultsPicker": null,
+                               "childrenPicker": null,
+                               "infantsPicker": null,
+                               "canInstantBook": false,
+                               "highlightBanner": null,
+                               "integratedPill": null,
+                               "initialPillMessageType": null,
+                               "initialPill": null,
+                               "availabilityPriceDetailEntry": null,
+                               "priceDetailLoggingEventData": null
+                           }
+                       },
+                       {
+                           "__typename": "SectionContainer",
+                           "id": "U2VjdGlvbkNvbnRhaW5lcjotNDYwMDQ5OTY4MTg4ODAwMDUyNA==",
+                           "sectionComponentType": "EDUCATION_FOOTER_BANNER_MODAL",
+                           "sectionContentStatus": "COMPLETE",
+                           "sectionId": "EDUCATION_FOOTER_BANNER_MODAL",
+                           "errors": null,
+                           "sectionDependencies": [
+                               "BOOKING"
+                           ],
+                           "enableDependencies": null,
+                           "disableDependencies": null,
+                           "loggingData": {
+                               "__typename": "LoggingEventData",
+                               "loggingId": "pdp_platform.education_footer_banner_modal",
+                               "experiments": [],
+                               "eventData": null,
+                               "eventDataSchemaName": null,
+                               "section": null,
+                               "component": null
+                           },
+                           "e2eLoggingSession": null,
+                           "mutationMetadata": null,
+                           "pluginPointId": "EDUCATION_FOOTER_BANNER_MODAL",
+                           "section": {
+                               "__typename": "EducationFooterBannerSection",
+                               "pdpEducationContentData": null
+                           }
+                       }
+                   ],
+                   "sectionsV2": [],
+                   "screens": [
+                       {
+                           "__typename": "ScreenContainer",
+                           "screenId": "TRANSLATION_PROMPT",
+                           "screenProperties": {
+                               "__typename": "ScreenProperties",
+                               "modalType": "CONTEXT_SHEET_FITTED",
+                               "transitionType": "CONTEXTUAL_GROW",
+                               "modalTitle": "Translation",
+                               "unstyled": null
+                           },
+                           "e2eLoggingSessions": null,
+                           "screenContentStatus": "COMPLETE",
+                           "screenContext": null,
+                           "onLoadScreenAction": null,
+                           "sectionPlacements": [
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "NAV",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "WIDE",
+                                   "mediaType": null
+                               },
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "WIDE",
+                                   "mediaType": null
+                               },
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "NAV",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "COMPACT",
+                                   "mediaType": null
+                               },
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "COMPACT",
+                                   "mediaType": null
+                               }
+                           ]
+                       },
+                       {
+                           "__typename": "ScreenContainer",
+                           "screenId": "AIRCOVER_PDP_MODAL",
+                           "screenProperties": {
+                               "__typename": "ScreenProperties",
+                               "modalType": "CONTEXT_SHEET_FULL",
+                               "transitionType": "CONTEXTUAL_GROW",
+                               "modalTitle": null,
+                               "unstyled": null
+                           },
+                           "e2eLoggingSessions": null,
+                           "screenContentStatus": "COMPLETE",
+                           "screenContext": null,
+                           "onLoadScreenAction": null,
+                           "sectionPlacements": [
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "WIDE",
+                                   "mediaType": null
+                               },
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "COMPACT",
+                                   "mediaType": null
+                               }
+                           ]
+                       },
+                       {
+                           "__typename": "ScreenContainer",
+                           "screenId": "ENHANCED_CLEANING",
+                           "screenProperties": null,
+                           "e2eLoggingSessions": null,
+                           "screenContentStatus": "COMPLETE",
+                           "screenContext": null,
+                           "onLoadScreenAction": null,
+                           "sectionPlacements": [
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "WIDE",
+                                   "mediaType": null
+                               },
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "COMPACT",
+                                   "mediaType": null
+                               }
+                           ]
+                       },
+                       {
+                           "__typename": "ScreenContainer",
+                           "screenId": "ROOT",
+                           "screenProperties": null,
+                           "e2eLoggingSessions": null,
+                           "screenContentStatus": "COMPLETE",
+                           "screenContext": null,
+                           "onLoadScreenAction": null,
+                           "sectionPlacements": [
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "BELOW_SIDEBAR",
+                                   "layout": "SIDEBAR",
+                                   "sectionDetails": [
+                                       {
+                                           "__typename": "SectionDetail",
+                                           "sectionId": "POLICIES_DEFAULT",
+                                           "divider": {
+                                               "__typename": "Divider",
+                                               "lineStyle": "THIN",
+                                               "lineWidth": "LONG",
+                                               "lineColor": null,
+                                               "topPadding": null,
+                                               "paddingBelowDivider": null
+                                           },
+                                           "border": null,
+                                           "topMarginPoints": null,
+                                           "topPaddingPoints": 48,
+                                           "bottomPaddingPoints": 48,
+                                           "bottomMarginPoints": null,
+                                           "backgroundColorNew": null,
+                                           "horizontalPadding": "CONTAINED",
+                                           "maxWidth": null
+                                       }
+                                   ],
+                                   "style": null,
+                                   "formFactor": "WIDE",
+                                   "mediaType": null
+                               },
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "SIDEBAR",
+                                   "layout": "SIDEBAR",
+                                   "sectionDetails": [
+                                       {
+                                           "__typename": "SectionDetail",
+                                           "sectionId": "BOOK_IT_SIDEBAR",
+                                           "divider": null,
+                                           "border": {
+                                               "__typename": "Border",
+                                               "lineStyle": "THIN",
+                                               "shadow": "SECONDARY",
+                                               "color": null,
+                                               "hoverColor": null,
+                                               "paddingPoints": 24,
+                                               "leftOnly": null,
+                                               "rightOnly": null,
+                                               "topRounded": null,
+                                               "sides": null,
+                                               "bottomRounded": null,
+                                               "cornerRadiusPoints": null,
+                                               "padding": null
+                                           },
+                                           "topMarginPoints": 32,
+                                           "topPaddingPoints": null,
+                                           "bottomPaddingPoints": null,
+                                           "bottomMarginPoints": null,
+                                           "backgroundColorNew": null,
+                                           "horizontalPadding": "FULL_WIDTH",
+                                           "maxWidth": null
+                                       },
+                                       {
+                                           "__typename": "SectionDetail",
+                                           "sectionId": "URGENCY_COMMITMENT_SIDEBAR",
+                                           "divider": null,
+                                           "border": {
+                                               "__typename": "Border",
+                                               "lineStyle": "THIN",
+                                               "shadow": null,
+                                               "color": null,
+                                               "hoverColor": null,
+                                               "paddingPoints": 24,
+                                               "leftOnly": null,
+                                               "rightOnly": null,
+                                               "topRounded": null,
+                                               "sides": null,
+                                               "bottomRounded": null,
+                                               "cornerRadiusPoints": null,
+                                               "padding": null
+                                           },
+                                           "topMarginPoints": 24,
+                                           "topPaddingPoints": null,
+                                           "bottomPaddingPoints": null,
+                                           "bottomMarginPoints": null,
+                                           "backgroundColorNew": null,
+                                           "horizontalPadding": "FULL_WIDTH",
+                                           "maxWidth": null
+                                       }
+                                   ],
+                                   "style": {
+                                       "__typename": "PlacementStyle",
+                                       "backgroundColor": null,
+                                       "border": {
+                                           "__typename": "Border",
+                                           "lineStyle": "NONE",
+                                           "shadow": null,
+                                           "color": null,
+                                           "hoverColor": null,
+                                           "paddingPoints": null,
+                                           "leftOnly": null,
+                                           "rightOnly": null,
+                                           "topRounded": null,
+                                           "sides": null,
+                                           "bottomRounded": null,
+                                           "cornerRadiusPoints": null,
+                                           "padding": null
+                                       },
+                                       "bottomMarginPoints": null,
+                                       "bottomPadding": null,
+                                       "bottomPaddingPoints": 48,
+                                       "fixedWidthPoints": null,
+                                       "span": 4,
+                                       "topMarginPoints": null,
+                                       "topPadding": null,
+                                       "topPaddingPoints": null
+                                   },
+                                   "formFactor": "WIDE",
+                                   "mediaType": null
+                               },
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "NAV",
+                                   "layout": "SIDEBAR",
+                                   "sectionDetails": [
+                                       {
+                                           "__typename": "SectionDetail",
+                                           "sectionId": "BOOK_IT_NAV",
+                                           "divider": null,
+                                           "border": null,
+                                           "topMarginPoints": null,
+                                           "topPaddingPoints": null,
+                                           "bottomPaddingPoints": null,
+                                           "bottomMarginPoints": null,
+                                           "backgroundColorNew": null,
+                                           "horizontalPadding": "FULL_WIDTH",
+                                           "maxWidth": null
+                                       }
+                                   ],
+                                   "style": null,
+                                   "formFactor": "WIDE",
+                                   "mediaType": null
+                               },
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "ALONG_SIDEBAR",
+                                   "layout": "SIDEBAR",
+                                   "sectionDetails": [],
+                                   "style": {
+                                       "__typename": "PlacementStyle",
+                                       "backgroundColor": null,
+                                       "border": null,
+                                       "bottomMarginPoints": null,
+                                       "bottomPadding": null,
+                                       "bottomPaddingPoints": null,
+                                       "fixedWidthPoints": null,
+                                       "span": 7,
+                                       "topMarginPoints": null,
+                                       "topPadding": null,
+                                       "topPaddingPoints": null
+                                   },
+                                   "formFactor": "WIDE",
+                                   "mediaType": null
+                               },
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "TOP",
+                                   "layout": "SIDEBAR",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "WIDE",
+                                   "mediaType": null
+                               },
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "FLOATING_FOOTER",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [
+                                       {
+                                           "__typename": "SectionDetail",
+                                           "sectionId": "BOOK_IT_FLOATING_FOOTER",
+                                           "divider": null,
+                                           "border": null,
+                                           "topMarginPoints": null,
+                                           "topPaddingPoints": 16,
+                                           "bottomPaddingPoints": 16,
+                                           "bottomMarginPoints": null,
+                                           "backgroundColorNew": null,
+                                           "horizontalPadding": null,
+                                           "maxWidth": null
+                                       },
+                                       {
+                                           "__typename": "SectionDetail",
+                                           "sectionId": "EDUCATION_FOOTER_BANNER",
+                                           "divider": null,
+                                           "border": null,
+                                           "topMarginPoints": null,
+                                           "topPaddingPoints": 14,
+                                           "bottomPaddingPoints": 14,
+                                           "bottomMarginPoints": null,
+                                           "backgroundColorNew": null,
+                                           "horizontalPadding": null,
+                                           "maxWidth": null
+                                       }
+                                   ],
+                                   "style": null,
+                                   "formFactor": "COMPACT",
+                                   "mediaType": null
+                               },
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "NAV",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "COMPACT",
+                                   "mediaType": null
+                               },
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [
+                                       {
+                                           "__typename": "SectionDetail",
+                                           "sectionId": "URGENCY_COMMITMENT",
+                                           "divider": {
+                                               "__typename": "Divider",
+                                               "lineStyle": "THIN",
+                                               "lineWidth": "LONG",
+                                               "lineColor": null,
+                                               "topPadding": null,
+                                               "paddingBelowDivider": null
+                                           },
+                                           "border": null,
+                                           "topMarginPoints": null,
+                                           "topPaddingPoints": 24,
+                                           "bottomPaddingPoints": 24,
+                                           "bottomMarginPoints": null,
+                                           "backgroundColorNew": null,
+                                           "horizontalPadding": "CONTAINED",
+                                           "maxWidth": null
+                                       },
+                                       {
+                                           "__typename": "SectionDetail",
+                                           "sectionId": "POLICIES_DEFAULT",
+                                           "divider": {
+                                               "__typename": "Divider",
+                                               "lineStyle": "THIN",
+                                               "lineWidth": "LONG",
+                                               "lineColor": null,
+                                               "topPadding": null,
+                                               "paddingBelowDivider": null
+                                           },
+                                           "border": null,
+                                           "topMarginPoints": null,
+                                           "topPaddingPoints": 24,
+                                           "bottomPaddingPoints": null,
+                                           "bottomMarginPoints": null,
+                                           "backgroundColorNew": null,
+                                           "horizontalPadding": "CONTAINED",
+                                           "maxWidth": null
+                                       }
+                                   ],
+                                   "style": null,
+                                   "formFactor": "COMPACT",
+                                   "mediaType": null
+                               }
+                           ]
+                       },
+                       {
+                           "__typename": "ScreenContainer",
+                           "screenId": "NON_EXPERIENCED_GUEST_LEARN_MORE_MODAL",
+                           "screenProperties": {
+                               "__typename": "ScreenProperties",
+                               "modalType": "CONTEXT_SHEET_FULL",
+                               "transitionType": "CONTEXTUAL_GROW",
+                               "modalTitle": null,
+                               "unstyled": null
+                           },
+                           "e2eLoggingSessions": null,
+                           "screenContentStatus": "COMPLETE",
+                           "screenContext": null,
+                           "onLoadScreenAction": null,
+                           "sectionPlacements": [
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "WIDE",
+                                   "mediaType": null
+                               },
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "COMPACT",
+                                   "mediaType": null
+                               }
+                           ]
+                       },
+                       {
+                           "__typename": "ScreenContainer",
+                           "screenId": "PLUS_EDUCATION_MODAL",
+                           "screenProperties": {
+                               "__typename": "ScreenProperties",
+                               "modalType": "CONTEXT_SHEET_FULL",
+                               "transitionType": "CONTEXTUAL_GROW",
+                               "modalTitle": null,
+                               "unstyled": null
+                           },
+                           "e2eLoggingSessions": null,
+                           "screenContentStatus": "COMPLETE",
+                           "screenContext": null,
+                           "onLoadScreenAction": null,
+                           "sectionPlacements": [
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "WIDE",
+                                   "mediaType": null
+                               },
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "COMPACT",
+                                   "mediaType": null
+                               }
+                           ]
+                       },
+                       {
+                           "__typename": "ScreenContainer",
+                           "screenId": "PRICE_DETAIL_MODAL",
+                           "screenProperties": null,
+                           "e2eLoggingSessions": null,
+                           "screenContentStatus": "COMPLETE",
+                           "screenContext": null,
+                           "onLoadScreenAction": null,
+                           "sectionPlacements": [
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [
+                                       {
+                                           "__typename": "SectionDetail",
+                                           "sectionId": "BOOK_IT_FLOATING_FOOTER",
+                                           "divider": null,
+                                           "border": null,
+                                           "topMarginPoints": null,
+                                           "topPaddingPoints": null,
+                                           "bottomPaddingPoints": null,
+                                           "bottomMarginPoints": null,
+                                           "backgroundColorNew": null,
+                                           "horizontalPadding": null,
+                                           "maxWidth": null
+                                       },
+                                       {
+                                           "__typename": "SectionDetail",
+                                           "sectionId": "POLICIES_DEFAULT",
+                                           "divider": null,
+                                           "border": null,
+                                           "topMarginPoints": null,
+                                           "topPaddingPoints": null,
+                                           "bottomPaddingPoints": null,
+                                           "bottomMarginPoints": null,
+                                           "backgroundColorNew": null,
+                                           "horizontalPadding": null,
+                                           "maxWidth": null
+                                       }
+                                   ],
+                                   "style": null,
+                                   "formFactor": "WIDE",
+                                   "mediaType": null
+                               },
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [
+                                       {
+                                           "__typename": "SectionDetail",
+                                           "sectionId": "BOOK_IT_FLOATING_FOOTER",
+                                           "divider": null,
+                                           "border": null,
+                                           "topMarginPoints": null,
+                                           "topPaddingPoints": null,
+                                           "bottomPaddingPoints": null,
+                                           "bottomMarginPoints": null,
+                                           "backgroundColorNew": null,
+                                           "horizontalPadding": null,
+                                           "maxWidth": null
+                                       },
+                                       {
+                                           "__typename": "SectionDetail",
+                                           "sectionId": "POLICIES_DEFAULT",
+                                           "divider": null,
+                                           "border": null,
+                                           "topMarginPoints": null,
+                                           "topPaddingPoints": null,
+                                           "bottomPaddingPoints": null,
+                                           "bottomMarginPoints": null,
+                                           "backgroundColorNew": null,
+                                           "horizontalPadding": null,
+                                           "maxWidth": null
+                                       }
+                                   ],
+                                   "style": null,
+                                   "formFactor": "COMPACT",
+                                   "mediaType": null
+                               }
+                           ]
+                       },
+                       {
+                           "__typename": "ScreenContainer",
+                           "screenId": "CANCELLATION_POLICY_PICKER",
+                           "screenProperties": {
+                               "__typename": "ScreenProperties",
+                               "modalType": "CONTEXT_SHEET_FITTED",
+                               "transitionType": "CONTEXTUAL_GROW",
+                               "modalTitle": "Choose a cancellation policy",
+                               "unstyled": true
+                           },
+                           "e2eLoggingSessions": null,
+                           "screenContentStatus": "COMPLETE",
+                           "screenContext": null,
+                           "onLoadScreenAction": null,
+                           "sectionPlacements": [
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [
+                                       {
+                                           "__typename": "SectionDetail",
+                                           "sectionId": "CANCELLATION_POLICY_PICKER_MODAL",
+                                           "divider": null,
+                                           "border": null,
+                                           "topMarginPoints": null,
+                                           "topPaddingPoints": null,
+                                           "bottomPaddingPoints": null,
+                                           "bottomMarginPoints": null,
+                                           "backgroundColorNew": null,
+                                           "horizontalPadding": "FULL_WIDTH",
+                                           "maxWidth": null
+                                       }
+                                   ],
+                                   "style": null,
+                                   "formFactor": "WIDE",
+                                   "mediaType": null
+                               },
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [
+                                       {
+                                           "__typename": "SectionDetail",
+                                           "sectionId": "CANCELLATION_POLICY_PICKER_MODAL",
+                                           "divider": null,
+                                           "border": null,
+                                           "topMarginPoints": null,
+                                           "topPaddingPoints": null,
+                                           "bottomPaddingPoints": null,
+                                           "bottomMarginPoints": null,
+                                           "backgroundColorNew": null,
+                                           "horizontalPadding": "FULL_WIDTH",
+                                           "maxWidth": null
+                                       }
+                                   ],
+                                   "style": null,
+                                   "formFactor": "COMPACT",
+                                   "mediaType": null
+                               }
+                           ]
+                       },
+                       {
+                           "__typename": "ScreenContainer",
+                           "screenId": "DESCRIPTION",
+                           "screenProperties": {
+                               "__typename": "ScreenProperties",
+                               "modalType": "CONTEXT_SHEET_FULL",
+                               "transitionType": "CONTEXTUAL_GROW",
+                               "modalTitle": "About this space",
+                               "unstyled": null
+                           },
+                           "e2eLoggingSessions": null,
+                           "screenContentStatus": "COMPLETE",
+                           "screenContext": null,
+                           "onLoadScreenAction": null,
+                           "sectionPlacements": [
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "WIDE",
+                                   "mediaType": null
+                               },
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "COMPACT",
+                                   "mediaType": null
+                               }
+                           ]
+                       },
+                       {
+                           "__typename": "ScreenContainer",
+                           "screenId": "REVIEWS",
+                           "screenProperties": {
+                               "__typename": "ScreenProperties",
+                               "modalType": "CONTEXT_SHEET_FULL",
+                               "transitionType": "CONTEXTUAL_GROW",
+                               "modalTitle": null,
+                               "unstyled": null
+                           },
+                           "e2eLoggingSessions": null,
+                           "screenContentStatus": "COMPLETE",
+                           "screenContext": null,
+                           "onLoadScreenAction": null,
+                           "sectionPlacements": [
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "WIDE",
+                                   "mediaType": null
+                               },
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "COMPACT",
+                                   "mediaType": null
+                               }
+                           ]
+                       },
+                       {
+                           "__typename": "ScreenContainer",
+                           "screenId": "ADD_AMENITIES",
+                           "screenProperties": {
+                               "__typename": "ScreenProperties",
+                               "modalType": "CONTEXT_SHEET_FULL",
+                               "transitionType": "SLIDE_FROM_RIGHT",
+                               "modalTitle": null,
+                               "unstyled": null
+                           },
+                           "e2eLoggingSessions": null,
+                           "screenContentStatus": "COMPLETE",
+                           "screenContext": null,
+                           "onLoadScreenAction": null,
+                           "sectionPlacements": [
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "FLOATING_FOOTER",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "WIDE",
+                                   "mediaType": null
+                               },
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "WIDE",
+                                   "mediaType": null
+                               },
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "FLOATING_FOOTER",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "COMPACT",
+                                   "mediaType": null
+                               },
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "COMPACT",
+                                   "mediaType": null
+                               }
+                           ]
+                       },
+                       {
+                           "__typename": "ScreenContainer",
+                           "screenId": "ACCESSIBILITY",
+                           "screenProperties": {
+                               "__typename": "ScreenProperties",
+                               "modalType": "FULL_SCREEN_MODAL",
+                               "transitionType": null,
+                               "modalTitle": null,
+                               "unstyled": null
+                           },
+                           "e2eLoggingSessions": null,
+                           "screenContentStatus": "COMPLETE",
+                           "screenContext": null,
+                           "onLoadScreenAction": null,
+                           "sectionPlacements": [
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "WIDE",
+                                   "mediaType": null
+                               },
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "COMPACT",
+                                   "mediaType": null
+                               }
+                           ]
+                       },
+                       {
+                           "__typename": "ScreenContainer",
+                           "screenId": "BUSINESS_DETAILS",
+                           "screenProperties": {
+                               "__typename": "ScreenProperties",
+                               "modalType": "CONTEXT_SHEET_FULL",
+                               "transitionType": "CONTEXTUAL_GROW",
+                               "modalTitle": null,
+                               "unstyled": null
+                           },
+                           "e2eLoggingSessions": null,
+                           "screenContentStatus": "COMPLETE",
+                           "screenContext": null,
+                           "onLoadScreenAction": null,
+                           "sectionPlacements": [
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "WIDE",
+                                   "mediaType": null
+                               },
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "COMPACT",
+                                   "mediaType": null
+                               }
+                           ]
+                       },
+                       {
+                           "__typename": "ScreenContainer",
+                           "screenId": "INDIVIDUAL_HOST_PROMPT",
+                           "screenProperties": {
+                               "__typename": "ScreenProperties",
+                               "modalType": "CONTEXT_SHEET_FITTED",
+                               "transitionType": "CONTEXTUAL_GROW",
+                               "modalTitle": "What to know",
+                               "unstyled": null
+                           },
+                           "e2eLoggingSessions": null,
+                           "screenContentStatus": "COMPLETE",
+                           "screenContext": null,
+                           "onLoadScreenAction": null,
+                           "sectionPlacements": [
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "WIDE",
+                                   "mediaType": null
+                               },
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "NAV",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "WIDE",
+                                   "mediaType": null
+                               },
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "COMPACT",
+                                   "mediaType": null
+                               },
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "NAV",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "COMPACT",
+                                   "mediaType": null
+                               }
+                           ]
+                       },
+                       {
+                           "__typename": "ScreenContainer",
+                           "screenId": "WHAT_COUNTS_AS_A_PET_MODAL",
+                           "screenProperties": {
+                               "__typename": "ScreenProperties",
+                               "modalType": "CONTEXT_SHEET",
+                               "transitionType": null,
+                               "modalTitle": "Service animals",
+                               "unstyled": null
+                           },
+                           "e2eLoggingSessions": null,
+                           "screenContentStatus": "COMPLETE",
+                           "screenContext": null,
+                           "onLoadScreenAction": null,
+                           "sectionPlacements": [
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "WIDE",
+                                   "mediaType": null
+                               },
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "COMPACT",
+                                   "mediaType": null
+                               }
+                           ]
+                       },
+                       {
+                           "__typename": "ScreenContainer",
+                           "screenId": "CALENDAR",
+                           "screenProperties": null,
+                           "e2eLoggingSessions": null,
+                           "screenContentStatus": "COMPLETE",
+                           "screenContext": null,
+                           "onLoadScreenAction": null,
+                           "sectionPlacements": [
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [
+                                       {
+                                           "__typename": "SectionDetail",
+                                           "sectionId": "BOOK_IT_CALENDAR_SHEET",
+                                           "divider": null,
+                                           "border": null,
+                                           "topMarginPoints": null,
+                                           "topPaddingPoints": null,
+                                           "bottomPaddingPoints": null,
+                                           "bottomMarginPoints": null,
+                                           "backgroundColorNew": null,
+                                           "horizontalPadding": "FULL_WIDTH",
+                                           "maxWidth": null
+                                       }
+                                   ],
+                                   "style": null,
+                                   "formFactor": "WIDE",
+                                   "mediaType": null
+                               },
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [
+                                       {
+                                           "__typename": "SectionDetail",
+                                           "sectionId": "BOOK_IT_CALENDAR_SHEET",
+                                           "divider": null,
+                                           "border": null,
+                                           "topMarginPoints": null,
+                                           "topPaddingPoints": null,
+                                           "bottomPaddingPoints": null,
+                                           "bottomMarginPoints": null,
+                                           "backgroundColorNew": null,
+                                           "horizontalPadding": "FULL_WIDTH",
+                                           "maxWidth": null
+                                       }
+                                   ],
+                                   "style": null,
+                                   "formFactor": "COMPACT",
+                                   "mediaType": null
+                               }
+                           ]
+                       },
+                       {
+                           "__typename": "ScreenContainer",
+                           "screenId": "PHOTO_TOUR_SCROLLABLE",
+                           "screenProperties": {
+                               "__typename": "ScreenProperties",
+                               "modalType": "FULL_SCREEN_MODAL",
+                               "transitionType": "CONTEXTUAL_GROW",
+                               "modalTitle": null,
+                               "unstyled": true
+                           },
+                           "e2eLoggingSessions": null,
+                           "screenContentStatus": "COMPLETE",
+                           "screenContext": null,
+                           "onLoadScreenAction": null,
+                           "sectionPlacements": [
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "WIDE",
+                                   "mediaType": null
+                               },
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "COMPACT",
+                                   "mediaType": null
+                               }
+                           ]
+                       },
+                       {
+                           "__typename": "ScreenContainer",
+                           "screenId": "EDUCATION",
+                           "screenProperties": null,
+                           "e2eLoggingSessions": null,
+                           "screenContentStatus": "COMPLETE",
+                           "screenContext": null,
+                           "onLoadScreenAction": null,
+                           "sectionPlacements": [
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "FLOATING_FOOTER",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [
+                                       {
+                                           "__typename": "SectionDetail",
+                                           "sectionId": "BOOK_IT_FLOATING_FOOTER",
+                                           "divider": null,
+                                           "border": null,
+                                           "topMarginPoints": null,
+                                           "topPaddingPoints": null,
+                                           "bottomPaddingPoints": null,
+                                           "bottomMarginPoints": null,
+                                           "backgroundColorNew": null,
+                                           "horizontalPadding": "FULL_WIDTH",
+                                           "maxWidth": null
+                                       },
+                                       {
+                                           "__typename": "SectionDetail",
+                                           "sectionId": "EDUCATION_FOOTER_BANNER_MODAL",
+                                           "divider": null,
+                                           "border": null,
+                                           "topMarginPoints": null,
+                                           "topPaddingPoints": null,
+                                           "bottomPaddingPoints": null,
+                                           "bottomMarginPoints": null,
+                                           "backgroundColorNew": null,
+                                           "horizontalPadding": "FULL_WIDTH",
+                                           "maxWidth": null
+                                       }
+                                   ],
+                                   "style": null,
+                                   "formFactor": "WIDE",
+                                   "mediaType": null
+                               },
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "FLOATING_FOOTER",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [
+                                       {
+                                           "__typename": "SectionDetail",
+                                           "sectionId": "BOOK_IT_FLOATING_FOOTER",
+                                           "divider": null,
+                                           "border": null,
+                                           "topMarginPoints": null,
+                                           "topPaddingPoints": null,
+                                           "bottomPaddingPoints": null,
+                                           "bottomMarginPoints": null,
+                                           "backgroundColorNew": null,
+                                           "horizontalPadding": "FULL_WIDTH",
+                                           "maxWidth": null
+                                       },
+                                       {
+                                           "__typename": "SectionDetail",
+                                           "sectionId": "EDUCATION_FOOTER_BANNER_MODAL",
+                                           "divider": null,
+                                           "border": null,
+                                           "topMarginPoints": null,
+                                           "topPaddingPoints": null,
+                                           "bottomPaddingPoints": null,
+                                           "bottomMarginPoints": null,
+                                           "backgroundColorNew": null,
+                                           "horizontalPadding": "FULL_WIDTH",
+                                           "maxWidth": null
+                                       }
+                                   ],
+                                   "style": null,
+                                   "formFactor": "COMPACT",
+                                   "mediaType": null
+                               }
+                           ]
+                       },
+                       {
+                           "__typename": "ScreenContainer",
+                           "screenId": "PROFESSIONAL_HOST_DETAILS",
+                           "screenProperties": {
+                               "__typename": "ScreenProperties",
+                               "modalType": "CONTEXT_SHEET_FITTED",
+                               "transitionType": "CONTEXTUAL_GROW",
+                               "modalTitle": "Business details",
+                               "unstyled": null
+                           },
+                           "e2eLoggingSessions": null,
+                           "screenContentStatus": "COMPLETE",
+                           "screenContext": null,
+                           "onLoadScreenAction": null,
+                           "sectionPlacements": [
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "WIDE",
+                                   "mediaType": null
+                               },
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "NAV",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "WIDE",
+                                   "mediaType": null
+                               },
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "COMPACT",
+                                   "mediaType": null
+                               },
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "NAV",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "COMPACT",
+                                   "mediaType": null
+                               }
+                           ]
+                       },
+                       {
+                           "__typename": "ScreenContainer",
+                           "screenId": "SPLIT_STAYS_DATE_EDIT_PROMPT",
+                           "screenProperties": {
+                               "__typename": "ScreenProperties",
+                               "modalType": "CONTEXT_SHEET_FITTED",
+                               "transitionType": "CONTEXTUAL_GROW",
+                               "modalTitle": "Need to change your dates?",
+                               "unstyled": null
+                           },
+                           "e2eLoggingSessions": null,
+                           "screenContentStatus": "COMPLETE",
+                           "screenContext": null,
+                           "onLoadScreenAction": null,
+                           "sectionPlacements": [
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "WIDE",
+                                   "mediaType": null
+                               },
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "COMPACT",
+                                   "mediaType": null
+                               }
+                           ]
+                       },
+                       {
+                           "__typename": "ScreenContainer",
+                           "screenId": "HOST_DESCRIPTION",
+                           "screenProperties": {
+                               "__typename": "ScreenProperties",
+                               "modalType": "CONTEXT_SHEET_FULL",
+                               "transitionType": "CONTEXTUAL_GROW",
+                               "modalTitle": null,
+                               "unstyled": null
+                           },
+                           "e2eLoggingSessions": null,
+                           "screenContentStatus": "COMPLETE",
+                           "screenContext": null,
+                           "onLoadScreenAction": null,
+                           "sectionPlacements": [
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "WIDE",
+                                   "mediaType": null
+                               },
+                               {
+                                   "__typename": "SectionPlacement",
+                                   "placement": "MAIN",
+                                   "layout": "SINGLE_COLUMN",
+                                   "sectionDetails": [],
+                                   "style": null,
+                                   "formFactor": "COMPACT",
+                                   "mediaType": null
+                               }
+                           ]
+                       }
+                   ],
+                   "screensV2": [],
+                   "flows": [],
+                   "metadata": {
+                       "__typename": "StayPDPMetadata",
+                       "pdpType": "MARKETPLACE",
+                       "pdpUrlType": "ROOMS",
+                       "pageTitle": null,
+                       "misaId": null,
+                       "isElvisListing": false,
+                       "errorData": null,
+                       "sharingConfig": {
+                           "__typename": "PdpSharingConfig",
+                           "title": "Apartment in Darjeeling · ★4.82 · 2 bedrooms · 3 beds · 2 bathrooms",
+                           "propertyType": "Entire apartment",
+                           "location": "Darjeeling",
+                           "personCapacity": 4,
+                           "imageUrl": "https://a0.muscache.com/pictures/hosting/Hosting-50718427/original/93c08118-e51a-4a66-ab27-e0004343fb5c.jpeg",
+                           "pdpLink": "https://www.airbnb.co.in/rooms/50718427",
+                           "shareUrl": "https://www.airbnb.co.in/rooms/50718427?viralityEntryPoint=1&s=76",
+                           "reviewCount": 134,
+                           "starRating": 4.82
+                       },
+                       "loggingContext": {
+                           "__typename": "PdpLoggingContext",
+                           "eventDataLogging": {
+                               "__typename": "PdpEventData",
+                               "listingId": "50718427",
+                               "page": "p3",
+                               "pdpPageType": 1,
+                               "listingLat": null,
+                               "listingLng": null,
+                               "homeTier": 1,
+                               "bedType": null,
+                               "roomType": "Entire home/apt",
+                               "personCapacity": 4,
+                               "descriptionLanguage": "en",
+                               "isSuperhost": false,
+                               "pictureCount": 43,
+                               "utcOffset": 19800,
+                               "amenities": [
+                                   1,
+                                   129,
+                                   4,
+                                   8,
+                                   137,
+                                   10,
+                                   11,
+                                   77,
+                                   79,
+                                   80,
+                                   81,
+                                   83,
+                                   85,
+                                   86,
+                                   89,
+                                   665,
+                                   93,
+                                   415,
+                                   671,
+                                   96,
+                                   100,
+                                   103,
+                                   40,
+                                   104,
+                                   41,
+                                   42,
+                                   44,
+                                   236,
+                                   47,
+                                   56,
+                                   57
+                               ],
+                               "accuracyRating": 4.82,
+                               "checkinRating": 4.84,
+                               "cleanlinessRating": 4.89,
+                               "communicationRating": 4.93,
+                               "locationRating": 4.49,
+                               "valueRating": 4.71,
+                               "guestSatisfactionOverall": 4.82,
+                               "visibleReviewCount": "134"
+                           }
+                       },
+                       "clientLoggingContext": {
+                           "__typename": "StayPDPLoggingContext",
+                           "productId": "50718427",
+                           "pdpType": "MARKETPLACE",
+                           "staysData": null,
+                           "guestCheckoutSteps": [
+                               "GATHER_TOWELS",
+                               "THROW_TRASH",
+                               "TURN_THINGS_OFF",
+                               "RETURN_KEYS"
+                           ]
+                       },
+                       "seoFeatures": {
+                           "__typename": "SeoFeatures",
+                           "androidAlternateUrl": "android-app://com.airbnb.android/airbnb/rooms/50718427",
+                           "androidDeeplink": "airbnb://rooms/50718427",
+                           "canonicalUrl": "https://www.airbnb.co.in/rooms/50718427",
+                           "iphoneDeeplink": "airbnb://rooms/50718427",
+                           "metaDescription": "29 Mar 2025 - Entire apartment for ₹3500. This 2BHK Apartment is on the ground floor of a residential building near the DM Office. The Mall Road is 1.5km, 15-minute walk uphill.  Note * Pac...",
+                           "title": "Magnolia • The 2BHK Himalayan Retreat - Apartments for Rent in Darjeeling, West Bengal, India - Airbnb",
+                           "breadcrumbDetails": [
+                               {
+                                   "__typename": "SeoBreadcrumbDetails",
+                                   "linkRoute": "/darjeeling-india/stays",
+                                   "linkText": "Darjeeling",
+                                   "searchText": "Darjeeling, India"
+                               },
+                               {
+                                   "__typename": "SeoBreadcrumbDetails",
+                                   "linkRoute": "/s/homes",
+                                   "linkText": "Stays",
+                                   "searchText": ""
+                               },
+                               {
+                                   "__typename": "SeoBreadcrumbDetails",
+                                   "linkRoute": "/",
+                                   "linkText": "Airbnb",
+                                   "searchText": ""
+                               }
+                           ],
+                           "nearbyCities": [],
+                           "neighborhoodBreadcrumbDetails": [
+                               {
+                                   "__typename": "SeoBreadcrumbDetails",
+                                   "linkRoute": "/darjeeling-india/stays",
+                                   "linkText": "Darjeeling",
+                                   "searchText": "Darjeeling, India"
+                               },
+                               {
+                                   "__typename": "SeoBreadcrumbDetails",
+                                   "linkRoute": "/s/homes",
+                                   "linkText": "Stays",
+                                   "searchText": ""
+                               },
+                               {
+                                   "__typename": "SeoBreadcrumbDetails",
+                                   "linkRoute": "/",
+                                   "linkText": "Airbnb",
+                                   "searchText": ""
+                               }
+                           ],
+                           "ogTags": {
+                               "__typename": "SeoOgTags",
+                               "ogDescription": "Magnolia • The 2BHK Himalayan Retreat",
+                               "ogImage": "https://a0.muscache.com/im/pictures/hosting/Hosting-50718427/original/93c08118-e51a-4a66-ab27-e0004343fb5c.jpeg?im_w=720&width=720&quality=70&auto=webp",
+                               "ogTitle": "Apartment in Darjeeling · ★4.82 · 2 bedrooms · 3 beds · 2 bathrooms",
+                               "ogType": "airbedandbreakfast:listing",
+                               "ogUrl": "https://www.airbnb.co.in/rooms/50718427",
+                               "ogImageHeight": null,
+                               "ogImageWidth": null,
+                               "ogVideoUrl": null,
+                               "ogVideoHeight": null,
+                               "ogVideoWidth": null
+                           },
+                           "otherPropertyTypes": [],
+                           "propertySearchUrl": null,
+                           "relImageSrc": "https://a0.muscache.com/im/pictures/hosting/Hosting-50718427/original/93c08118-e51a-4a66-ab27-e0004343fb5c.jpeg?im_w=720&width=720&quality=70&auto=webp",
+                           "twitterTags": {
+                               "__typename": "SeoTwitterTags",
+                               "twitterCard": "photo",
+                               "twitterDescription": null,
+                               "twitterImage": "https://a0.muscache.com/im/pictures/hosting/Hosting-50718427/original/93c08118-e51a-4a66-ab27-e0004343fb5c.jpeg?im_w=720&width=720&quality=70&auto=webp",
+                               "twitterTitle": null,
+                               "twitterUrl": "https://www.airbnb.co.in/rooms/50718427"
+                           },
+                           "indexInSearchEngines": true
+                       },
+                       "initialTranslationState": null,
+                       "bookingPrefetchData": {
+                           "__typename": "PdpBookingPrefetchData",
+                           "isHotelRatePlanEnabled": false,
+                           "tpointContent": null,
+                           "barPrice": {
+                               "__typename": "BarPrice",
+                               "accessibilityLabel": "₹2,500 per night, originally ₹2,952",
+                               "displayPrices": [
+                                   {
+                                       "__typename": "BarDisplayPrice",
+                                       "displayRateType": null,
+                                       "priceString": "₹2,952",
+                                       "type": "STRIKE_THROUGH"
+                                   },
+                                   {
+                                       "__typename": "BarDisplayPrice",
+                                       "displayRateType": "NIGHTLY",
+                                       "priceString": "₹2,500",
+                                       "type": "PRIMARY"
+                                   }
+                               ],
+                               "explanationData": {
+                                   "__typename": "ExplanationData",
+                                   "title": "Price breakdown",
+                                   "subtitle": {
+                                       "__typename": "ExplanationDataSubtitle",
+                                       "legalDisclaimerSubtitle": "Samridhi recently lowered the price for these dates (from the average rate for the past 60 nights).",
+                                       "discountDisclaimerSubtitle": null,
+                                       "additionalPropertyChargeDisclaimerTooltip": null,
+                                       "policyItems": null
+                                   },
+                                   "anchorLink": null,
+                                   "anchorText": null,
+                                   "priceGroups": [
+                                       {
+                                           "__typename": "PriceLineGroup",
+                                           "type": "DETAILS",
+                                           "title": null,
+                                           "subtitle": null,
+                                           "items": [
+                                               {
+                                                   "__typename": "PriceLineItem",
+                                                   "description": "₹2,500 x 2 nights",
+                                                   "explanationData": {
+                                                       "__typename": "ExplanationData",
+                                                       "title": "Base Price Breakdown",
+                                                       "subtitle": {
+                                                           "__typename": "ExplanationDataSubtitle",
+                                                           "legalDisclaimerSubtitle": null,
+                                                           "discountDisclaimerSubtitle": "Samridhi recently lowered the price for these dates (from the average rate for the past 60 nights).",
+                                                           "additionalPropertyChargeDisclaimerTooltip": null,
+                                                           "policyItems": null
+                                                       },
+                                                       "priceGroups": [
+                                                           {
+                                                               "__typename": "PriceLineGroup",
+                                                               "type": "DETAILS",
+                                                               "items": [
+                                                                   {
+                                                                       "__typename": "PriceLineItem",
+                                                                       "description": "29/3/2025",
+                                                                       "priceString": "₹2,500",
+                                                                       "type": "DEFAULT"
+                                                                   },
+                                                                   {
+                                                                       "__typename": "PriceLineItem",
+                                                                       "description": "30/3/2025",
+                                                                       "priceString": "₹2,500",
+                                                                       "type": "DEFAULT"
+                                                                   }
+                                                               ],
+                                                               "title": null,
+                                                               "subtitle": null
+                                                           },
+                                                           {
+                                                               "__typename": "PriceLineGroup",
+                                                               "type": "TOTAL",
+                                                               "items": [
+                                                                   {
+                                                                       "__typename": "PriceLineItem",
+                                                                       "description": "Total Base Price",
+                                                                       "priceString": "₹5,000",
+                                                                       "type": "BOLD"
+                                                                   }
+                                                               ],
+                                                               "title": null,
+                                                               "subtitle": null
+                                                           }
+                                                       ],
+                                                       "anchorLink": null,
+                                                       "anchorText": null
+                                                   },
+                                                   "priceString": "₹5,000",
+                                                   "type": "DEFAULT"
+                                               },
+                                               {
+                                                   "__typename": "PriceLineItem",
+                                                   "description": "Airbnb service fee",
+                                                   "explanationData": {
+                                                       "__typename": "ExplanationData",
+                                                       "title": null,
+                                                       "subtitle": {
+                                                           "__typename": "ExplanationDataSubtitle",
+                                                           "legalDisclaimerSubtitle": "This helps us run our platform and offer services like 24/7 support on your trip.",
+                                                           "discountDisclaimerSubtitle": null,
+                                                           "additionalPropertyChargeDisclaimerTooltip": null,
+                                                           "policyItems": null
+                                                       },
+                                                       "priceGroups": null,
+                                                       "anchorLink": null,
+                                                       "anchorText": null
+                                                   },
+                                                   "priceString": "₹706",
+                                                   "type": "DEFAULT"
+                                               }
+                                           ]
+                                       },
+                                       {
+                                           "__typename": "PriceLineGroup",
+                                           "type": "TOTAL",
+                                           "title": null,
+                                           "subtitle": null,
+                                           "items": [
+                                               {
+                                                   "__typename": "PriceLineItem",
+                                                   "description": "Total before taxes",
+                                                   "explanationData": null,
+                                                   "priceString": "₹5,706",
+                                                   "type": "BOLD"
+                                               }
+                                           ]
+                                       }
+                                   ]
+                               }
+                           },
+                           "canInstantBook": false,
+                           "cancellationPolicies": [
+                               {
+                                   "__typename": "LegacyPdpCancellationSection",
+                                   "cancellation_policy_price_type": null,
+                                   "book_it_module_tooltip": "This reservation is non-refundable.",
+                                   "cancellation_policy_id": 44,
+                                   "link": "/help/article/2637",
+                                   "link_text": "Get full details",
+                                   "localized_cancellation_policy_name": "Strict",
+                                   "milestones": [],
+                                   "subtitles": [],
+                                   "title": ""
+                               }
+                           ],
+                           "p3DepositData": null,
+                           "p3MessageData": null,
+                           "p3CancellationSection": {
+                               "__typename": "LegacyPdpCancellationSection",
+                               "cancellationPolicyPriceType": null
+                           },
+                           "price": {
+                               "__typename": "PdpPriceDetails",
+                               "discountData": {
+                                   "__typename": "PricingDiscountData",
+                                   "tieredPricingDiscountData": null
+                               },
+                               "type": "TOTAL",
+                               "localizedTitle": "Total before taxes",
+                               "localizedExplanation": ""
+                           },
+                           "productRateSections": null,
+                           "p3_display_rate": {
+                               "__typename": "PdpDisplayRate",
+                               "amount": 2500.0,
+                               "amount_micros": 2.5E9,
+                               "amount_formatted": "₹2,500",
+                               "is_micros_accuracy": false,
+                               "currency": "INR"
+                           },
+                           "productItemDetail": null,
+                           "ratePlanLoggingEventData": {
+                               "__typename": "LoggingEventData",
+                               "loggingId": "ratePlanInput",
+                               "experiments": null,
+                               "eventData": null,
+                               "eventDataSchemaName": null,
+                               "section": null,
+                               "component": null
+                           }
+                       }
+                   },
+                   "sbuiData": {
+                       "__typename": "StayPDPSBUIData",
+                       "sectionConfiguration": {
+                           "__typename": "StayPDPSectionConfiguration",
+                           "root": {
+                               "__typename": "PlacementGroupsPerFormFactor",
+                               "sections": [
+                                   {
+                                       "__typename": "SectionDataContainer",
+                                       "sectionId": "OVERVIEW_DEFAULT_V2",
+                                       "loggingData": {
+                                           "__typename": "LoggingEventData",
+                                           "loggingId": "pdp.overview_default_v2",
+                                           "experiments": null,
+                                           "eventData": {
+                                               "productId": "U3RheUxpc3Rpbmc6NTA3MTg0Mjc=",
+                                               "pdpImpressionId": "p3_1743286298_P3u0DFAGNTO4yDhu",
+                                               "pdpContext": {
+                                                   "isGuestFavorite": "false"
+                                               }
+                                           },
+                                           "eventDataSchemaName": "Pdp.v5.ClientEventData",
+                                           "section": null,
+                                           "component": null
+                                       },
+                                       "sectionData": {
+                                           "__typename": "PdpOverviewV2Section",
+                                           "title": "Entire apartment in Darjeeling, India",
+                                           "overviewItems": [
+                                               {
+                                                   "__typename": "PdpSbuiBasicListItem",
+                                                   "title": "4 guests"
+                                               },
+                                               {
+                                                   "__typename": "PdpSbuiBasicListItem",
+                                                   "title": "2 bedrooms"
+                                               },
+                                               {
+                                                   "__typename": "PdpSbuiBasicListItem",
+                                                   "title": "3 beds"
+                                               },
+                                               {
+                                                   "__typename": "PdpSbuiBasicListItem",
+                                                   "title": "2 bathrooms"
+                                               }
+                                           ],
+                                           "reviewData": {
+                                               "__typename": "PdpOverviewV2ReviewData",
+                                               "reviewCountText": "134 reviews",
+                                               "ratingText": "4.82",
+                                               "reviewCount": "134",
+                                               "isNewListing": false,
+                                               "ratingAccessibilityLabel": "Rated 4.82 out of 5 stars.",
+                                               "loggingEventData": {
+                                                   "__typename": "LoggingEventData",
+                                                   "loggingId": "pdp.overview_default_v2",
+                                                   "eventData": {
+                                                       "productId": "U3RheUxpc3Rpbmc6NTA3MTg0Mjc=",
+                                                       "pdpImpressionId": "p3_1743286298_P3u0DFAGNTO4yDhu",
+                                                       "pdpContext": {
+                                                           "isGuestFavorite": "false"
+                                                       }
+                                                   },
+                                                   "eventDataSchemaName": "Pdp.v5.ClientEventData",
+                                                   "section": null,
+                                                   "component": null
+                                               }
+                                           }
+                                       }
+                                   },
+                                   {
+                                       "__typename": "SectionDataContainer",
+                                       "sectionId": "HOST_OVERVIEW_DEFAULT",
+                                       "loggingData": {
+                                           "__typename": "LoggingEventData",
+                                           "loggingId": "pdp.host_overview_default",
+                                           "experiments": null,
+                                           "eventData": {
+                                               "productId": "U3RheUxpc3Rpbmc6NTA3MTg0Mjc=",
+                                               "pdpImpressionId": "p3_1743286298_P3u0DFAGNTO4yDhu",
+                                               "pdpContext": {
+                                                   "isSuperHost": "true",
+                                                   "hostId": "253278449"
+                                               }
+                                           },
+                                           "eventDataSchemaName": "Pdp.v5.ClientEventData",
+                                           "section": null,
+                                           "component": null
+                                       },
+                                       "sectionData": {
+                                           "__typename": "PdpHostOverviewDefaultSection",
+                                           "title": "Hosted by Samridhi",
+                                           "overviewItems": [
+                                               {
+                                                   "__typename": "PdpSbuiBasicListItem",
+                                                   "title": "Superhost"
+                                               },
+                                               {
+                                                   "__typename": "PdpSbuiBasicListItem",
+                                                   "title": "6 years hosting"
+                                               }
+                                           ],
+                                           "hostAvatar": {
+                                               "__typename": "Avatar",
+                                               "badge": "SUPER_HOST",
+                                               "scrollId": null,
+                                               "avatarImage": {
+                                                   "__typename": "Image",
+                                                   "baseUrl": "https://a0.muscache.com/im/pictures/user/27e17e68-b4f0-4218-9851-af4a00f28922.jpg",
+                                                   "accessibilityLabel": "Samridhi is a superhost. Learn more about Samridhi."
+                                               },
+                                               "loggingEventData": {
+                                                   "__typename": "LoggingEventData",
+                                                   "loggingId": "pdp.host_overview_default",
+                                                   "eventData": {
+                                                       "productId": "U3RheUxpc3Rpbmc6NTA3MTg0Mjc=",
+                                                       "pdpImpressionId": "p3_1743286298_P3u0DFAGNTO4yDhu",
+                                                       "pdpContext": {
+                                                           "isSuperHost": "true",
+                                                           "hostId": "253278449"
+                                                       }
+                                                   },
+                                                   "eventDataSchemaName": "Pdp.v5.ClientEventData",
+                                                   "section": null,
+                                                   "component": null
+                                               }
+                                           }
+                                       }
+                                   },
+                                   {
+                                       "__typename": "SectionDataContainer",
+                                       "sectionId": "LUXE_BANNER",
+                                       "loggingData": {
+                                           "__typename": "LoggingEventData",
+                                           "loggingId": "pdp_platform.luxe_banner",
+                                           "experiments": null,
+                                           "eventData": null,
+                                           "eventDataSchemaName": null,
+                                           "section": null,
+                                           "component": null
+                                       },
+                                       "sectionData": {
+                                           "__typename": "PdpLuxeBannerSection",
+                                           "accessibilityLabel": "Airbnb Luxe",
+                                           "brandDescription": "Extraordinary homes, vetted for quality."
+                                       }
+                                   }
+                               ]
+                           },
+                           "aircover": {
+                               "__typename": "PlacementGroupsPerFormFactor",
+                               "sections": []
+                           }
+                       }
+                   }
+               }
+           }
+       }
+   },
+   "extensions": {
+       "traceId": "ARhDnrBMnhkV3HNBrX4Pxw=="
+   }
+}
