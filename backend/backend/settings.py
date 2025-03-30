@@ -9,10 +9,10 @@ https://docs.djangoproject.com/en/4.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
-
+import re
 from pathlib import Path
 
-from backend.backend import getCredentials
+# from getCredentials import *
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -74,6 +74,21 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
+def getCredentials(fileLocation="./backend/backend/key.properties"):
+   try:
+      f = open(fileLocation, "r")
+      data = f.read()
+      user = re.findall(r'user=(.*)', data)
+      password = re.findall(r'password=(.*)', data)
+      return{
+            "user": user[0],
+            "password": password[0],
+      }
+   except:
+      return {
+         "user": 'root',
+         "password": None,
+      }
 
 DATABASES = {
     'default': {
@@ -127,4 +142,7 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+
 
