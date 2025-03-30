@@ -93,7 +93,7 @@ def getCredentials(fileLocation="./backend/backend/key.properties"):
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'mydb',
+        'NAME': 'ROMEO',
         'USER': getCredentials()['user'],
         'PASSWORD': getCredentials()['password'],
         'HOST':'localhost',
