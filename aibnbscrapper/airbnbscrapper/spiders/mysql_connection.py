@@ -1,14 +1,13 @@
+import json
 import os
 import re
 
 import mysql.connector
-from dotenv import load_dotenv
 from airbnbscrapper.spiders.constants import dirPath
 
 dbName="Airbnb"
 tableName = "scrapper"
 database = None
-cnx = None
 
 
 def getCredentials(fileLocation=f"{dirPath}/key.properties"):
@@ -44,6 +43,7 @@ def createNewDatabase():
    CREATE TABLE IF NOT EXISTS {tableName}(
         id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
         title VARCHAR(100),
+        full_url VARCHAR(500),
         image_urls TEXT,
         avg_rating VARCHAR(500),
         price_per_night VARCHAR(500),
@@ -55,9 +55,8 @@ def createNewDatabase():
    
 
 def connectToDatabase():
-   load_dotenv()
+#    load_dotenv
    global database
-   global cnx
    try:
         credentials = getCredentials()
         with mysql.connector.connect(
@@ -71,6 +70,32 @@ def connectToDatabase():
    except mysql.connector.Error as e:
        print("Error: "+e)
    
+def insertToDatabase(title: str, full_url: str, avgRating: str, pricePerNight: str, totalPrice: str, imageUrls: list) -> bool:
+    global database
+    insertRecordTemplate = f"""INSERT INTO {tableName} (title, full_url, image_urls, avg_rating, price_per_night, total_price)
+        VALUE(%s, %s, %s, %s, $s, %s)
+    """
+    imageUrls = json.dumps(imageUrls)
+    actualRecord = (
+        title,
+        full_url,
+        imageUrls,
+        avgRating,
+        pricePerNight,
+        totalPrice  
+    )
+    with database.cursor() as cursor:
+        cursor.execute(insertRecordTemplate, actualRecord)
+        database.commit()
+
+
+
+
+def accessDatabase():
+    pass
+
+
+
 
 
 def testDatabase():
