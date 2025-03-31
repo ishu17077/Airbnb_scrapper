@@ -32,6 +32,7 @@ Please run this:
 key.properties is defined as:
 "
 user="username here"
+
 password="password here"
 "
 
