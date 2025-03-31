@@ -17,7 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.shortcuts import render
 from django.urls import path, include
-from airbnb_fetch.urls import views
+from airbnb_fetch import views
 
 
 urlpatterns = [

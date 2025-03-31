@@ -1,0 +1,434 @@
+[
+   {
+      "model": "airbnb_fetch.airbnblisting",
+      "pk": 1,
+      "fields": {
+         "title": "Apartment in Puri",
+         "full_url": "https://www.airbnb.co.in/s/1201825464522924166?adult=2&children=0&search_mode=regular_search&check_in=2025-05-16&check_out=2025-05-18",
+         "image_urls": "[\"https://a0.muscache.com/im/pictures/hosting/Hosting-1201825464522924166/original/bb151565-5a49-455d-ad5d-6304652c501e.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-1201825464522924166/original/bbefafde-0169-41e1-a179-a9386e9807d7.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-1201825464522924166/original/9f2122bf-1c64-4faf-a4f4-5afab523f176.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-1201825464522924166/original/7dc596a7-99ca-4e01-b024-8eedf16ee6e3.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-1201825464522924166/original/4d3fb2e8-7ef9-4119-86f0-19494a3b6c8c.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-1201825464522924166/original/9edf120a-fad4-4c8b-ab41-b7a4537954c8.jpeg\"]",
+         "avg_rating": "4.93 (56)",
+         "price_per_night": "₹1,427 per night",
+         "total_price": "₹2,853 total"
+      }
+   },
+   {
+      "model": "airbnb_fetch.airbnblisting",
+      "pk": 2,
+      "fields": {
+         "title": "Flat in Puri",
+         "full_url": "https://www.airbnb.co.in/s/1163967117716626850?adult=2&children=0&search_mode=regular_search&check_in=2025-05-16&check_out=2025-05-18",
+         "image_urls": "[\"https://a0.muscache.com/im/pictures/hosting/Hosting-1163967117716626850/original/5c69ba0a-8f83-40e0-b625-b08852645963.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-1163967117716626850/original/60a7a1fc-8f09-4998-886a-9eb3b310379d.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-1163967117716626850/original/76f3b861-8d74-47c5-b8d1-6741bbef948a.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-1163967117716626850/original/2d6489fe-7877-422f-8217-01ae219bf631.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-1163967117716626850/original/ff4b32ee-5e92-416b-bf6c-2be3e5daf4b2.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-1163967117716626850/original/4dd2dcb4-e812-4657-88e2-acbab50bc3b8.jpeg\"]",
+         "avg_rating": "4.89 (62)",
+         "price_per_night": "₹2,286 per night",
+         "total_price": "₹4,622 total"
+      }
+   },
+   {
+      "model": "airbnb_fetch.airbnblisting",
+      "pk": 3,
+      "fields": {
+         "title": "Apartment in Puri",
+         "full_url": "https://www.airbnb.co.in/s/1258678465282907805?adult=2&children=0&search_mode=regular_search&check_in=2025-05-16&check_out=2025-05-18",
+         "image_urls": "[\"https://a0.muscache.com/im/pictures/miso/Hosting-1258678465282907805/original/d52b982d-38c8-4246-8ed0-f256efb01af2.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-1258678465282907805/original/8ff9d822-d9cb-4803-b92b-8d98e2a39b9e.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-1258678465282907805/original/821203c5-2433-4d72-8cc1-ca22987a1100.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-1258678465282907805/original/11cf2dcf-5ac2-49ba-9ea8-152605a9b48e.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-1258678465282907805/original/2aaa523f-1b50-42f8-a890-d2686182ba9f.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-1258678465282907805/original/5725ea99-66dc-4f64-9f0d-4cea0d719e08.jpeg\"]",
+         "avg_rating": "4.8 (30)",
+         "price_per_night": "₹2,224 per night",
+         "total_price": "₹4,448 total"
+      }
+   },
+   {
+      "model": "airbnb_fetch.airbnblisting",
+      "pk": 4,
+      "fields": {
+         "title": "Apartment in Puri",
+         "full_url": "https://www.airbnb.co.in/s/1386269750162997296?adult=2&children=0&search_mode=regular_search&check_in=2025-05-16&check_out=2025-05-18",
+         "image_urls": "[\"https://a0.muscache.com/im/pictures/miso/Hosting-1386269750162997296/original/7c9d05ad-c971-4bf8-aa38-7e17063e267b.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM4NjI2OTc1MDE2Mjk5NzI5Ng==/original/e64bd2ef-8404-4575-ae33-d89b40908fad.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-1386269750162997296/original/5a2d2757-c254-4a31-bb60-545532ce490b.png\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM4NjI2OTc1MDE2Mjk5NzI5Ng==/original/b72edf48-a2f2-4a3b-bc7e-700c2d5e7ffd.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-1386269750162997296/original/5dfbd3eb-e658-4776-a344-376af2fd55f8.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM4NjI2OTc1MDE2Mjk5NzI5Ng==/original/e8ed5424-1995-4777-8b02-70e5636a84c0.jpeg\"]",
+         "avg_rating": "New",
+         "price_per_night": "₹1,867 per night, originally ₹2,276",
+         "total_price": "₹3,734 total"
+      }
+   },
+   {
+      "model": "airbnb_fetch.airbnblisting",
+      "pk": 5,
+      "fields": {
+         "title": "Apartment in Puri",
+         "full_url": "https://www.airbnb.co.in/s/1230824796756395799?adult=2&children=0&search_mode=regular_search&check_in=2025-05-16&check_out=2025-05-18",
+         "image_urls": "[\"https://a0.muscache.com/im/pictures/miso/Hosting-1230824796756395799/original/77c1e328-261e-4b34-820c-6820fee94274.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-1230824796756395799/original/2ae56eac-fbe8-4970-8929-2dc56115933c.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-1230824796756395799/original/0289ba5b-223b-477b-be11-c888a1028e20.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-1230824796756395799/original/59478847-a97e-4bc7-8a88-ee1519e962fb.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-1230824796756395799/original/bb73b0c0-560c-42de-b756-f360105f35f6.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-1230824796756395799/original/854b831d-2de7-4f6a-9455-eb23a13a6ea0.jpeg\"]",
+         "avg_rating": "4.86 (42)",
+         "price_per_night": "₹1,427 per night",
+         "total_price": "₹2,853 total"
+      }
+   },
+   {
+      "model": "airbnb_fetch.airbnblisting",
+      "pk": 6,
+      "fields": {
+         "title": "Apartment in Puri",
+         "full_url": "https://www.airbnb.co.in/s/1004834947299648481?adult=2&children=0&search_mode=regular_search&check_in=2025-05-16&check_out=2025-05-18",
+         "image_urls": "[\"https://a0.muscache.com/im/ml/photo_enhancement/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTAwNDgzNDk0NzI5OTY0ODQ4MQ==/original/d0e728a4-3c62-4e19-9e03-29b829bf63de.jpeg\", \"https://a0.muscache.com/im/ml/photo_enhancement/pictures/296cd6cf-3e65-4d89-8afe-1c6cd2e74445.jpg\", \"https://a0.muscache.com/im/ml/photo_enhancement/pictures/8ba768e1-e73c-4529-9e3c-29b5e79252c4.jpg\", \"https://a0.muscache.com/im/ml/photo_enhancement/pictures/52d17dab-f871-4a4e-aa7c-6872301b7d30.jpg\", \"https://a0.muscache.com/im/ml/photo_enhancement/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTAwNDgzNDk0NzI5OTY0ODQ4MQ==/original/c6fd4bd1-2dd7-4b54-b898-e181af1a609b.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTAwNDgzNDk0NzI5OTY0ODQ4MQ%3D%3D/original/ecc77c6f-7e84-430f-9513-9a96b19e6578.jpeg\"]",
+         "avg_rating": "4.63 (35)",
+         "price_per_night": "₹1,192 per night",
+         "total_price": "₹2,383 total"
+      }
+   },
+   {
+      "model": "airbnb_fetch.airbnblisting",
+      "pk": 7,
+      "fields": {
+         "title": "Flat in Puri",
+         "full_url": "https://www.airbnb.co.in/s/889176125511160463?adult=2&children=0&search_mode=regular_search&check_in=2025-05-16&check_out=2025-05-18",
+         "image_urls": "[\"https://a0.muscache.com/im/pictures/miso/Hosting-889176125511160463/original/a22c3ba0-a40a-49a6-9bc2-ba3ef4a7a38d.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-889176125511160463/original/6cfb1acb-0995-4a66-a138-fef6f83b72f8.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-889176125511160463/original/b802b8fc-11b4-410d-abfc-3b374a7a5c13.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-889176125511160463/original/f522f89c-3ac9-47dc-b705-4b10f867f434.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-889176125511160463/original/5c9ed365-5bea-4bae-9716-1274915e7391.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-889176125511160463/original/7bbbd959-84a0-4199-b15a-3512376e774a.jpeg\"]",
+         "avg_rating": "4.84 (64)",
+         "price_per_night": "₹2,350 per night",
+         "total_price": "₹5,000 total"
+      }
+   },
+   {
+      "model": "airbnb_fetch.airbnblisting",
+      "pk": 8,
+      "fields": {
+         "title": "Flat in Puri",
+         "full_url": "https://www.airbnb.co.in/s/1193470219081635418?adult=2&children=0&search_mode=regular_search&check_in=2025-05-16&check_out=2025-05-18",
+         "image_urls": "[\"https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE5MzQ3MDIxOTA4MTYzNTQxOA%3D%3D/original/57b0184c-9eab-460a-b336-194b35b43466.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-1193470219081635418/original/ab1c4edb-3b44-43a1-8895-09b7d6f32abb.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE5MzQ3MDIxOTA4MTYzNTQxOA%3D%3D/original/fcaf9550-a064-4077-b55e-d935bec71ddd.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE5MzQ3MDIxOTA4MTYzNTQxOA%3D%3D/original/5f871738-25de-4658-931b-944272e47465.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE5MzQ3MDIxOTA4MTYzNTQxOA%3D%3D/original/c58e0a9f-643f-4d7d-a447-b824ba7134c0.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE5MzQ3MDIxOTA4MTYzNTQxOA%3D%3D/original/22503ec0-536e-4db8-a2c7-32e9a3bd5aac.jpeg\"]",
+         "avg_rating": "4.82 (33)",
+         "price_per_night": "₹2,304 per night, originally ₹2,528",
+         "total_price": "₹4,607 total"
+      }
+   },
+   {
+      "model": "airbnb_fetch.airbnblisting",
+      "pk": 9,
+      "fields": {
+         "title": "Apartment in Puri",
+         "full_url": "https://www.airbnb.co.in/s/1130111287144323434?adult=2&children=0&search_mode=regular_search&check_in=2025-05-16&check_out=2025-05-18",
+         "image_urls": "[\"https://a0.muscache.com/im/pictures/hosting/Hosting-1130111287144323434/original/77bf3c3b-bdf6-404c-a54b-f0fd6aecb623.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-1130111287144323434/original/da18884f-65b3-4979-8cb4-90b8e8e0652c.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEzMDExMTI4NzE0NDMyMzQzNA%3D%3D/original/186bcccd-50f8-4cc7-809a-93d9fd8d55cc.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEzMDExMTI4NzE0NDMyMzQzNA%3D%3D/original/17069048-1795-4dda-b363-e3ad966c4b16.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEzMDExMTI4NzE0NDMyMzQzNA%3D%3D/original/b251d628-ddef-478f-bd72-aad4e2aaba24.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEzMDExMTI4NzE0NDMyMzQzNA%3D%3D/original/2044399c-7837-44fe-a112-4ff659151289.jpeg\"]",
+         "avg_rating": "4.82 (85)",
+         "price_per_night": "₹2,053 per night",
+         "total_price": "₹4,106 total"
+      }
+   },
+   {
+      "model": "airbnb_fetch.airbnblisting",
+      "pk": 10,
+      "fields": {
+         "title": "Home in Puri",
+         "full_url": "https://www.airbnb.co.in/s/44092430?adult=2&children=0&search_mode=regular_search&check_in=2025-05-16&check_out=2025-05-18",
+         "image_urls": "[\"https://a0.muscache.com/im/ml/photo_enhancement/pictures/bc3952ab-d3ce-4393-b319-b6d44ad1d678.jpg\", \"https://a0.muscache.com/im/ml/photo_enhancement/pictures/535b8df0-f15b-4853-b3d6-ff6cfeebef31.jpg\", \"https://a0.muscache.com/im/ml/photo_enhancement/pictures/2a87379d-bd7e-4b75-ab76-170bf2af63ab.jpg\", \"https://a0.muscache.com/im/ml/photo_enhancement/pictures/89a4bb9f-a2b6-4faa-9d1d-4419daebb353.jpg\", \"https://a0.muscache.com/im/ml/photo_enhancement/pictures/fe5c4964-f78a-420d-abdd-7428d91ccc3d.jpg\", \"https://a0.muscache.com/im/pictures/33661d4f-4353-4046-bf10-1661f50779b7.jpg\"]",
+         "avg_rating": "4.88 (255)",
+         "price_per_night": "₹2,054 per night",
+         "total_price": "₹4,108 total"
+      }
+   },
+   {
+      "model": "airbnb_fetch.airbnblisting",
+      "pk": 11,
+      "fields": {
+         "title": "Apartment in Puri",
+         "full_url": "https://www.airbnb.co.in/s/1271456773773755928?adult=2&children=0&search_mode=regular_search&check_in=2025-05-16&check_out=2025-05-18",
+         "image_urls": "[\"https://a0.muscache.com/im/pictures/miso/Hosting-1271456773773755928/original/2819a9f3-9535-4e24-97d0-863195af8674.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-1271456773773755928/original/d8759a91-bdeb-41f3-a05d-2637b5fbf1f0.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-1271456773773755928/original/d775c00e-2a41-4170-b7b7-79b2507d6836.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-1271456773773755928/original/90cca152-04b5-4e0b-a543-6743b9b363bd.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-1271456773773755928/original/bdc4b0e6-bbbb-4ea4-a51a-b0cb7ccc820e.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-1271456773773755928/original/7765226f-97cd-4b3b-ad07-147e91a75198.jpeg\"]",
+         "avg_rating": "4.44 (18)",
+         "price_per_night": "₹1,427 per night",
+         "total_price": "₹2,854 total"
+      }
+   },
+   {
+      "model": "airbnb_fetch.airbnblisting",
+      "pk": 12,
+      "fields": {
+         "title": "Apartment in Puri",
+         "full_url": "https://www.airbnb.co.in/s/1342874306287935148?adult=2&children=0&search_mode=regular_search&check_in=2025-05-16&check_out=2025-05-18",
+         "image_urls": "[\"https://a0.muscache.com/im/pictures/hosting/Hosting-1342874306287935148/original/26c517d5-f2ed-4a44-b3b1-431748e15f6f.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-1342874306287935148/original/653123e7-3e48-414d-a4e2-30c711b2459e.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-1342874306287935148/original/7a8ce978-e2d7-440b-879d-a5a8bc54f5a7.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-1342874306287935148/original/bea97379-b835-46e0-b13e-705c540df3f4.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-1342874306287935148/original/fd640cec-5f9a-417e-93e5-9cfaba4684c2.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-1342874306287935148/original/7e8bed10-2d5c-48dc-896e-bc53c77d14b2.jpeg\"]",
+         "avg_rating": "4.83 (6)",
+         "price_per_night": "₹3,652 per night",
+         "total_price": "₹7,304 total"
+      }
+   },
+   {
+      "model": "airbnb_fetch.airbnblisting",
+      "pk": 13,
+      "fields": {
+         "title": "Flat in Puri",
+         "full_url": "https://www.airbnb.co.in/s/1354048453128773794?adult=2&children=0&search_mode=regular_search&check_in=2025-05-16&check_out=2025-05-18",
+         "image_urls": "[\"https://a0.muscache.com/im/pictures/miso/Hosting-1354048453128773794/original/a463bb82-23f6-4276-b751-4812b74ad67c.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-1354048453128773794/original/c80c855b-99b6-404a-913b-820d170882f6.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-1354048453128773794/original/881f1422-e580-4b7a-b976-adeee13a5272.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-1354048453128773794/original/65497289-67a1-44d9-a18a-8b77883b8cb5.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-1354048453128773794/original/1743c48a-bf28-41cc-855e-c0f3b4e9ea39.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-1354048453128773794/original/a10c8170-dae6-46ad-822f-6b85f4370672.jpeg\"]",
+         "avg_rating": "4.54 (13)",
+         "price_per_night": "₹2,054 per night",
+         "total_price": "₹4,108 total"
+      }
+   },
+   {
+      "model": "airbnb_fetch.airbnblisting",
+      "pk": 14,
+      "fields": {
+         "title": "Apartment in Sipasurubili",
+         "full_url": "https://www.airbnb.co.in/s/1159845995709449827?adult=2&children=0&search_mode=regular_search&check_in=2025-05-16&check_out=2025-05-18",
+         "image_urls": "[\"https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE1OTg0NTk5NTcwOTQ0OTgyNw%3D%3D/original/722097fb-a8a4-4bbb-bc3d-6e8f596a61d6.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE1OTg0NTk5NTcwOTQ0OTgyNw%3D%3D/original/855526b4-5720-4801-8dce-c966af490557.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE1OTg0NTk5NTcwOTQ0OTgyNw%3D%3D/original/4867cab6-4f9d-4156-ab3d-f31577142a44.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE1OTg0NTk5NTcwOTQ0OTgyNw%3D%3D/original/b5c5fd52-fe57-404a-963c-8d49557a8590.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE1OTg0NTk5NTcwOTQ0OTgyNw%3D%3D/original/0117efee-d0f0-43e0-8e69-7413a9bcb358.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE1OTg0NTk5NTcwOTQ0OTgyNw%3D%3D/original/babff848-d2b0-4003-ba2a-65f680f046ea.jpeg\"]",
+         "avg_rating": "4.67 (12)",
+         "price_per_night": "₹1,361 per night",
+         "total_price": "₹2,721 total"
+      }
+   },
+   {
+      "model": "airbnb_fetch.airbnblisting",
+      "pk": 15,
+      "fields": {
+         "title": "Flat in Puri",
+         "full_url": "https://www.airbnb.co.in/s/1327353006384168519?adult=2&children=0&search_mode=regular_search&check_in=2025-05-16&check_out=2025-05-18",
+         "image_urls": "[\"https://a0.muscache.com/im/pictures/hosting/Hosting-1327353006384168519/original/107f83b6-9ebc-493c-913d-587b82c7355d.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-1327353006384168519/original/0c716ef5-6921-4f38-991b-ff0b62e8cbb3.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-1327353006384168519/original/02cc8bf6-406b-4279-b873-7b1def6d988e.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-1327353006384168519/original/0e2ca181-3697-4e3c-8708-a216434ec8c2.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-1327353006384168519/original/4039adbb-3624-43dd-8cf2-d69dda27f194.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-1327353006384168519/original/caeb3722-d39c-4371-ad10-e3d64548c9b8.png\"]",
+         "avg_rating": "4.67 (3)",
+         "price_per_night": "₹1,140 per night",
+         "total_price": "₹2,280 total"
+      }
+   },
+   {
+      "model": "airbnb_fetch.airbnblisting",
+      "pk": 16,
+      "fields": {
+         "title": "Apartment in Puri",
+         "full_url": "https://www.airbnb.co.in/s/1004816967871505646?adult=2&children=0&search_mode=regular_search&check_in=2025-05-16&check_out=2025-05-18",
+         "image_urls": "[\"https://a0.muscache.com/im/pictures/hosting/Hosting-1004816967871505646/original/510d4ef4-7a93-4bd6-a0e1-9ac588328ec2.jpeg\", \"https://a0.muscache.com/im/pictures/5eb3ca09-0f98-4d9e-9761-ab6c9e121818.jpg\", \"https://a0.muscache.com/im/pictures/51536a29-1c87-43a2-b4e4-09d14f9474a3.jpg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTAwNDgxNjk2Nzg3MTUwNTY0Ng%3D%3D/original/1a22f32f-34a0-4bd9-9e30-7e4c9ed26672.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTAwNDgxNjk2Nzg3MTUwNTY0Ng%3D%3D/original/3b7c1103-0daf-45f1-8e89-5eb316b7a23b.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTAwNDgxNjk2Nzg3MTUwNTY0Ng%3D%3D/original/9c376f8d-0e3e-46d2-8469-7946ec62e8f4.jpeg\"]",
+         "avg_rating": "4.67 (27)",
+         "price_per_night": "₹1,517 per night",
+         "total_price": "₹3,033 total"
+      }
+   },
+   {
+      "model": "airbnb_fetch.airbnblisting",
+      "pk": 17,
+      "fields": {
+         "title": "Flat in Puri",
+         "full_url": "https://www.airbnb.co.in/s/1250798417612839796?adult=2&children=0&search_mode=regular_search&check_in=2025-05-16&check_out=2025-05-18",
+         "image_urls": "[\"https://a0.muscache.com/im/pictures/hosting/Hosting-1250798417612839796/original/c2f4987e-4fe5-46d7-9d83-47a58f00b4f8.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-1250798417612839796/original/6b2899e5-8b70-45db-ac32-e16a52d151a9.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-1250798417612839796/original/03f073b9-bbfb-4d11-94ab-7fabfe1b6e87.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-1250798417612839796/original/1433686f-07fb-4e8e-9f1a-ff8dad7bf023.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-1250798417612839796/original/79cf22f1-18c7-4f69-ac0f-9d4ad1d54102.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-1250798417612839796/original/5182b146-5f9f-4605-8443-1f2e4fcb4ea1.jpeg\"]",
+         "avg_rating": "4.96 (23)",
+         "price_per_night": "₹1,897 per night, originally ₹2,311",
+         "total_price": "₹3,894 total"
+      }
+   },
+   {
+      "model": "airbnb_fetch.airbnblisting",
+      "pk": 18,
+      "fields": {
+         "title": "Apartment in Puri",
+         "full_url": "https://www.airbnb.co.in/s/1206497256124632652?adult=2&children=0&search_mode=regular_search&check_in=2025-05-16&check_out=2025-05-18",
+         "image_urls": "[\"https://a0.muscache.com/im/pictures/hosting/Hosting-1206497256124632652/original/1c063a37-339a-405a-9189-23e13b2ab8ef.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-1206497256124632652/original/873af402-3899-4fd9-96cd-57bf8873840e.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-1206497256124632652/original/4291d3a5-b944-4c8a-90cf-e6cb361bd064.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-1206497256124632652/original/c6ef7681-d9ea-4eca-8fe9-0dbcaa421403.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-1206497256124632652/original/62df0fac-8f84-45b6-9e3d-5825e8655d9f.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-1206497256124632652/original/fe07f4ba-2f2c-4064-9cb1-1e729af41609.jpeg\"]",
+         "avg_rating": "4.97 (33)",
+         "price_per_night": "₹5,136 per night",
+         "total_price": "₹10,271 total"
+      }
+   },
+   {
+      "model": "airbnb_fetch.airbnblisting",
+      "pk": 19,
+      "fields": {
+         "title": "Place to stay in Tambon Bang Kraso",
+         "full_url": "https://www.airbnb.co.in/s/985805665856513795?adult=2&children=0&search_mode=regular_search&check_in=2025-05-16&check_out=2025-05-18",
+         "image_urls": "[\"https://a0.muscache.com/im/pictures/a6b233d4-7d1e-48c9-9146-3ec1015e5d49.jpg\", \"https://a0.muscache.com/im/pictures/45be34ec-2c96-44d1-ba6f-de04d024f9f6.jpg\", \"https://a0.muscache.com/im/pictures/ed229430-5a29-4f1d-aec3-4fba92e601fd.jpg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-985805665856513795/original/f0a1e06c-00bb-4783-8903-cd7309e1393f.jpeg\", \"https://a0.muscache.com/im/pictures/44cd2ff1-e9ee-4efc-9f2c-8a575c8c4a9a.jpg\", \"https://a0.muscache.com/im/pictures/811e7b07-6989-4103-9fc7-0816b78c5843.jpg\"]",
+         "avg_rating": "4.88 (25)",
+         "price_per_night": "₹2,048 per night",
+         "total_price": "N/A"
+      }
+   },
+   {
+      "model": "airbnb_fetch.airbnblisting",
+      "pk": 20,
+      "fields": {
+         "title": "Apartment in Tambon Pak Kret",
+         "full_url": "https://www.airbnb.co.in/s/575237958005988711?adult=2&children=0&search_mode=regular_search&check_in=2025-05-16&check_out=2025-05-18",
+         "image_urls": "[\"https://a0.muscache.com/im/pictures/miso/Hosting-575237958005988711/original/577b5d64-f59a-46d0-822a-97deec8a47fc.jpeg\", \"https://a0.muscache.com/im/pictures/66001cab-fb5c-4ca0-8d0b-7410f1f68c6c.jpg\", \"https://a0.muscache.com/im/pictures/ebe4b6c4-89a3-4dd9-8675-87e651b15ee0.jpg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-575237958005988711/original/bbf8a883-0177-488e-8edb-f8d427b546fb.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-575237958005988711/original/b5730a03-7cb4-431e-a26e-158c414f7a29.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-575237958005988711/original/7f2da911-e2c3-449d-8fdb-26e767eb34d9.jpeg\"]",
+         "avg_rating": "5.0 (17)",
+         "price_per_night": "₹1,972 per night, originally ₹2,199",
+         "total_price": "N/A"
+      }
+   },
+   {
+      "model": "airbnb_fetch.airbnblisting",
+      "pk": 21,
+      "fields": {
+         "title": "Apartment in Amphoe Pak Kret",
+         "full_url": "https://www.airbnb.co.in/s/727689763764044449?adult=2&children=0&search_mode=regular_search&check_in=2025-05-16&check_out=2025-05-18",
+         "image_urls": "[\"https://a0.muscache.com/im/ml/photo_enhancement/pictures/962c0521-1738-4de9-8452-f68791a37f55.jpg\", \"https://a0.muscache.com/im/ml/photo_enhancement/pictures/92a4c539-b8bc-427a-8306-fef1cc55c0ba.jpg\", \"https://a0.muscache.com/im/ml/photo_enhancement/pictures/ee29f2f8-2bdd-49ea-a488-b56dd3dfe870.jpg\", \"https://a0.muscache.com/im/ml/photo_enhancement/pictures/025319be-8200-4e1d-b970-8b1b4a2c25f1.jpg\", \"https://a0.muscache.com/im/ml/photo_enhancement/pictures/d0fa6f6a-a78f-4c79-ab2a-b39ce641cba0.jpg\", \"https://a0.muscache.com/im/pictures/2d419970-1aa2-4850-b7a5-af5527fcacc4.jpg\"]",
+         "avg_rating": "4.81 (103)",
+         "price_per_night": "₹2,257 per night",
+         "total_price": "N/A"
+      }
+   },
+   {
+      "model": "airbnb_fetch.airbnblisting",
+      "pk": 22,
+      "fields": {
+         "title": "Flat in Pak Kret",
+         "full_url": "https://www.airbnb.co.in/s/1067384821465576932?adult=2&children=0&search_mode=regular_search&check_in=2025-05-16&check_out=2025-05-18",
+         "image_urls": "[\"https://a0.muscache.com/im/pictures/miso/Hosting-1067384821465576932/original/352a7cb0-0ec3-4c94-aa35-24870abb4bd8.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-1067384821465576932/original/7acaa0b8-e9cf-4c0e-bd2c-0a7427c4bd41.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-1067384821465576932/original/4aa00da0-c074-4ae8-a8da-3199a4868b77.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-1067384821465576932/original/21fdcd66-923c-40ad-9494-cf6a77b7adb4.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-1067384821465576932/original/3f8f2b38-41aa-4ff3-8760-1853486eaba8.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-1067384821465576932/original/09fefe4d-7338-42f8-a090-864f5b59cb75.jpeg\"]",
+         "avg_rating": "4.6 (30)",
+         "price_per_night": "₹2,639 per night, originally ₹3,660",
+         "total_price": "N/A"
+      }
+   },
+   {
+      "model": "airbnb_fetch.airbnblisting",
+      "pk": 23,
+      "fields": {
+         "title": "Room in Tambon Khlong Klua",
+         "full_url": "https://www.airbnb.co.in/s/669927743627485656?adult=2&children=0&search_mode=regular_search&check_in=2025-05-16&check_out=2025-05-18",
+         "image_urls": "[\"https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NjY5OTI3NzQzNjI3NDg1NjU2/original/b563ea5b-efe6-4a4d-b7e0-92e504548ef5.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NjY5OTI3NzQzNjI3NDg1NjU2/original/afb7a96f-4841-423a-a246-7f01df1f6deb.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NjY5OTI3NzQzNjI3NDg1NjU2/original/ea8564fa-2e63-4f0b-b285-57178a891a94.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NjY5OTI3NzQzNjI3NDg1NjU2/original/a97d3e43-7bc6-4221-83b0-a38668a21118.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NjY5OTI3NzQzNjI3NDg1NjU2/original/71510a5a-6884-40f9-b4a2-27f591a86ab2.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NjY5OTI3NzQzNjI3NDg1NjU2/original/17442576-094c-4f96-947d-207e7f36dbb8.jpeg\"]",
+         "avg_rating": "4.88 (34)",
+         "price_per_night": "₹1,384 per night, originally ₹1,641",
+         "total_price": "N/A"
+      }
+   },
+   {
+      "model": "airbnb_fetch.airbnblisting",
+      "pk": 24,
+      "fields": {
+         "title": "Apartment in Tambon Sao Thong Hin",
+         "full_url": "https://www.airbnb.co.in/s/37757753?adult=2&children=0&search_mode=regular_search&check_in=2025-05-16&check_out=2025-05-18",
+         "image_urls": "[\"https://a0.muscache.com/im/pictures/6833872e-6470-45da-b98f-66d5366ff1eb.jpg\", \"https://a0.muscache.com/im/pictures/6f5614eb-5458-40dc-9be8-d8a97094c55f.jpg\", \"https://a0.muscache.com/im/pictures/42edcb97-5566-482d-ab4c-c81eb0a9f5df.jpg\", \"https://a0.muscache.com/im/pictures/d67cff5f-0990-4391-8418-5e18e57b6064.jpg\", \"https://a0.muscache.com/im/pictures/73b3e4e8-8842-4550-880a-5f79128754b2.jpg\", \"https://a0.muscache.com/im/pictures/fce05303-7c96-40a1-a99c-0605d20571a6.jpg\"]",
+         "avg_rating": "4.85 (27)",
+         "price_per_night": "₹2,683 per night",
+         "total_price": "N/A"
+      }
+   },
+   {
+      "model": "airbnb_fetch.airbnblisting",
+      "pk": 25,
+      "fields": {
+         "title": "Room in Tambon Bang Len",
+         "full_url": "https://www.airbnb.co.in/s/937297032842206314?adult=2&children=0&search_mode=regular_search&check_in=2025-05-16&check_out=2025-05-18",
+         "image_urls": "[\"https://a0.muscache.com/im/pictures/miso/Hosting-937297032842206314/original/fadbfd70-70c1-4aec-ab77-32f347f6fea7.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-937297032842206314/original/231a5d11-5a3e-4b1f-ad48-99fbf715fc8f.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-937297032842206314/original/3112c9ac-14dc-445d-a051-306b42659632.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-937297032842206314/original/d98eea77-83af-4abb-bc5d-06ef66c4c370.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-937297032842206314/original/20c7d520-53f7-4b28-9318-183989f7f508.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-937297032842206314/original/0dffedc5-4e6d-4032-810e-21b97228e2d2.jpeg\"]",
+         "avg_rating": "4.81 (32)",
+         "price_per_night": "₹1,343 per night",
+         "total_price": "N/A"
+      }
+   },
+   {
+      "model": "airbnb_fetch.airbnblisting",
+      "pk": 26,
+      "fields": {
+         "title": "Room in ตำบลเสาธงหิน",
+         "full_url": "https://www.airbnb.co.in/s/26556701?adult=2&children=0&search_mode=regular_search&check_in=2025-05-16&check_out=2025-05-18",
+         "image_urls": "[\"https://a0.muscache.com/im/ml/photo_enhancement/pictures/5fa631b4-76f2-400b-8a70-0037c5abcc74.jpg\", \"https://a0.muscache.com/im/ml/photo_enhancement/pictures/51e6c385-dadc-41b2-9f99-f517afe7c648.jpg\", \"https://a0.muscache.com/im/ml/photo_enhancement/pictures/72a49454-4f05-4cca-a876-76d0ab53cf1d.jpg\", \"https://a0.muscache.com/im/ml/photo_enhancement/pictures/f1ebb433-9a19-4ecb-a41d-258482785790.jpg\", \"https://a0.muscache.com/im/ml/photo_enhancement/pictures/f3bfb7e3-4e4f-4243-9b25-5f9cdeaeb6e5.jpg\", \"https://a0.muscache.com/im/pictures/cbc18fef-654a-4f6d-b490-071436be54d1.jpg\"]",
+         "avg_rating": "4.83 (42)",
+         "price_per_night": "₹1,522 per night",
+         "total_price": "N/A"
+      }
+   },
+   {
+      "model": "airbnb_fetch.airbnblisting",
+      "pk": 27,
+      "fields": {
+         "title": "Apartment in Nontaburee",
+         "full_url": "https://www.airbnb.co.in/s/31546973?adult=2&children=0&search_mode=regular_search&check_in=2025-05-16&check_out=2025-05-18",
+         "image_urls": "[\"https://a0.muscache.com/im/pictures/2eadf028-e055-4fe3-92d4-5d3207226d69.jpg\", \"https://a0.muscache.com/im/pictures/08d116f8-0572-449c-bc6f-0f51cf05cfbf.jpg\", \"https://a0.muscache.com/im/pictures/b4cea31b-21f7-41df-b76a-82773f90ff1b.jpg\", \"https://a0.muscache.com/im/pictures/bf7afc06-57e9-4ccb-8ad1-db128e29f05b.jpg\", \"https://a0.muscache.com/im/pictures/85020d22-8bde-4212-a864-4893882d0d73.jpg\", \"https://a0.muscache.com/im/pictures/3771fc9f-2e37-4b53-8adf-7d8357328092.jpg\"]",
+         "avg_rating": "4.65 (63)",
+         "price_per_night": "₹2,224 per night",
+         "total_price": "N/A"
+      }
+   },
+   {
+      "model": "airbnb_fetch.airbnblisting",
+      "pk": 28,
+      "fields": {
+         "title": "Flat in Nonthaburi",
+         "full_url": "https://www.airbnb.co.in/s/17640777?adult=2&children=0&search_mode=regular_search&check_in=2025-05-16&check_out=2025-05-18",
+         "image_urls": "[\"https://a0.muscache.com/im/pictures/4b8d6dd5-83a7-4a1c-9e0e-b0827c17f9fa.jpg\", \"https://a0.muscache.com/im/pictures/f9943776-e289-4218-ba43-c777a7a0c3b1.jpg\", \"https://a0.muscache.com/im/pictures/ca149c11-59f5-4be3-9458-26e13669c190.jpg\", \"https://a0.muscache.com/im/pictures/f0b56ae1-79ed-4150-a1fd-4ca034debba2.jpg\", \"https://a0.muscache.com/im/pictures/e77d149b-6f5b-49c7-8661-274be1b5b054.jpg\", \"https://a0.muscache.com/im/pictures/69c78220-3d4b-4877-b58f-9438dfe672d0.jpg\"]",
+         "avg_rating": "4.87 (55)",
+         "price_per_night": "₹2,381 per night",
+         "total_price": "N/A"
+      }
+   },
+   {
+      "model": "airbnb_fetch.airbnblisting",
+      "pk": 29,
+      "fields": {
+         "title": "Apartment in Tambon Bang Kraso",
+         "full_url": "https://www.airbnb.co.in/s/36258137?adult=2&children=0&search_mode=regular_search&check_in=2025-05-16&check_out=2025-05-18",
+         "image_urls": "[\"https://a0.muscache.com/im/pictures/miso/Hosting-36258137/original/3e8bb35b-fdd1-4b2a-8f7d-f076f379e5e0.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MzYyNTgxMzc%3D/original/007a362b-c96e-4354-a44b-2ebb35c86eb3.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-36258137/original/57cb7ab0-3304-494a-910d-e4c887896d54.jpeg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-36258137/original/95c200cf-5762-4631-a5a1-8bb344f2bc99.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MzYyNTgxMzc%3D/original/014cbef1-e8ad-4412-9296-541b16b26e26.jpeg\", \"https://a0.muscache.com/im/pictures/b42f8441-8488-412b-b297-d71a3e17a29d.jpg\"]",
+         "avg_rating": "5.0 (17)",
+         "price_per_night": "₹2,611 per night",
+         "total_price": "N/A"
+      }
+   },
+   {
+      "model": "airbnb_fetch.airbnblisting",
+      "pk": 30,
+      "fields": {
+         "title": "Apartment in Nonthaburi",
+         "full_url": "https://www.airbnb.co.in/s/8055257?adult=2&children=0&search_mode=regular_search&check_in=2025-05-16&check_out=2025-05-18",
+         "image_urls": "[\"https://a0.muscache.com/im/pictures/102660669/1caea79c_original.jpg\", \"https://a0.muscache.com/im/pictures/102662763/048f496f_original.jpg\", \"https://a0.muscache.com/im/pictures/102662697/e816347a_original.jpg\", \"https://a0.muscache.com/im/pictures/102662152/d34d1be8_original.jpg\", \"https://a0.muscache.com/im/pictures/102662285/957008ac_original.jpg\", \"https://a0.muscache.com/im/pictures/102662216/bee3972e_original.jpg\"]",
+         "avg_rating": "4.84 (168)",
+         "price_per_night": "₹2,429 per night",
+         "total_price": "N/A"
+      }
+   },
+   {
+      "model": "airbnb_fetch.airbnblisting",
+      "pk": 31,
+      "fields": {
+         "title": "Townhouse in Tambon Khlong Klua",
+         "full_url": "https://www.airbnb.co.in/s/28167726?adult=2&children=0&search_mode=regular_search&check_in=2025-05-16&check_out=2025-05-18",
+         "image_urls": "[\"https://a0.muscache.com/im/pictures/278e768f-4aa8-49b7-80c2-a6759d8a1c83.jpg\", \"https://a0.muscache.com/im/pictures/miso/Hosting-28167726/original/1ddf4e5c-9c1b-4486-bc03-1429ddb420c0.png\", \"https://a0.muscache.com/im/pictures/miso/Hosting-28167726/original/2457d5be-5382-47cc-b37c-c99d3f7c0f32.png\", \"https://a0.muscache.com/im/pictures/3d298212-d899-4070-b58a-3895a2df0ec8.jpg\", \"https://a0.muscache.com/im/pictures/1926f413-e97b-4d85-b5fb-88c3a79af959.jpg\", \"https://a0.muscache.com/im/pictures/a9feafe5-395b-42b8-9132-f529229e642c.jpg\"]",
+         "avg_rating": "4.95 (104)",
+         "price_per_night": "₹4,389 per night",
+         "total_price": "N/A"
+      }
+   },
+   {
+      "model": "airbnb_fetch.airbnblisting",
+      "pk": 32,
+      "fields": {
+         "title": "Apartment in Nonthaburi",
+         "full_url": "https://www.airbnb.co.in/s/48721787?adult=2&children=0&search_mode=regular_search&check_in=2025-05-16&check_out=2025-05-18",
+         "image_urls": "[\"https://a0.muscache.com/im/ml/photo_enhancement/pictures/hosting/Hosting-48721787/original/ce93e804-b893-44ac-86f9-3cf95274aa2e.jpeg\", \"https://a0.muscache.com/im/ml/photo_enhancement/pictures/hosting/Hosting-48721787/original/20e5c1a9-221d-4279-80e3-74d1bd9829d5.jpeg\", \"https://a0.muscache.com/im/ml/photo_enhancement/pictures/hosting/Hosting-48721787/original/82591496-cfb5-4713-8121-db7df75a3e2d.jpeg\", \"https://a0.muscache.com/im/ml/photo_enhancement/pictures/hosting/Hosting-48721787/original/ee439282-c08e-4e46-96e0-e75f9a5d9607.jpeg\", \"https://a0.muscache.com/im/ml/photo_enhancement/pictures/hosting/Hosting-48721787/original/b5a68b55-498c-44e4-a9d2-e96933ebeb1d.jpeg\", \"https://a0.muscache.com/im/ml/photo_enhancement/pictures/hosting/Hosting-48721787/original/9a19bfaa-8010-4db6-9a75-f38714e0ed92.jpeg\"]",
+         "avg_rating": "4.93 (14)",
+         "price_per_night": "₹2,275 per night",
+         "total_price": "N/A"
+      }
+   },
+   {
+      "model": "airbnb_fetch.airbnblisting",
+      "pk": 33,
+      "fields": {
+         "title": "Flat in Tambon Bang Rak Phatthana",
+         "full_url": "https://www.airbnb.co.in/s/32932066?adult=2&children=0&search_mode=regular_search&check_in=2025-05-16&check_out=2025-05-18",
+         "image_urls": "[\"https://a0.muscache.com/im/pictures/5131bd05-5901-4996-8863-89c7e0135a20.jpg\", \"https://a0.muscache.com/im/pictures/9fceff72-9797-4814-b60e-47ced03d9f5b.jpg\", \"https://a0.muscache.com/im/pictures/2023803f-b477-489b-bd91-5632144c1b0b.jpg\", \"https://a0.muscache.com/im/pictures/e4f1ff54-14d3-47d4-8568-c32999fbcce4.jpg\", \"https://a0.muscache.com/im/pictures/67dea86b-b069-4ff7-9b33-ec7f8a6e5cb8.jpg\", \"https://a0.muscache.com/im/pictures/cdd963c3-7248-47c8-b73d-d47e26e52615.jpg\"]",
+         "avg_rating": "4.47 (45)",
+         "price_per_night": "₹1,358 per night",
+         "total_price": "N/A"
+      }
+   },
+   {
+      "model": "airbnb_fetch.airbnblisting",
+      "pk": 34,
+      "fields": {
+         "title": "Flat in Tambon Bang Kraso",
+         "full_url": "https://www.airbnb.co.in/s/31061176?adult=2&children=0&search_mode=regular_search&check_in=2025-05-16&check_out=2025-05-18",
+         "image_urls": "[\"https://a0.muscache.com/im/pictures/ef80543f-7af5-486b-8359-6e6831a942a1.jpg\", \"https://a0.muscache.com/im/pictures/08abbb97-aa09-432b-bae8-622f84e498af.jpg\", \"https://a0.muscache.com/im/pictures/90205b88-8fed-400f-ba40-4b91999516bf.jpg\", \"https://a0.muscache.com/im/pictures/33725279-4b99-4891-bc6a-605f98ec73fc.jpg\", \"https://a0.muscache.com/im/pictures/f4dba342-2508-4515-abf6-8bff99c91c06.jpg\", \"https://a0.muscache.com/im/pictures/ac525761-afb8-4dbb-b9f4-5752f9da550f.jpg\"]",
+         "avg_rating": "4.9 (41)",
+         "price_per_night": "₹1,797 per night",
+         "total_price": "N/A"
+      }
+   },
+   {
+      "model": "airbnb_fetch.airbnblisting",
+      "pk": 35,
+      "fields": {
+         "title": "Flat in Tambon Bang Rak Phatthana",
+         "full_url": "https://www.airbnb.co.in/s/837201043750318844?adult=2&children=0&search_mode=regular_search&check_in=2025-05-16&check_out=2025-05-18",
+         "image_urls": "[\"https://a0.muscache.com/im/pictures/6a695b1a-54c9-42e7-b226-1c272f09eab5.jpg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-837201043750318844/original/c37fadc3-94ce-4642-a2d7-a3d3467629db.jpeg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-837201043750318844/original/270d0f60-6aea-4bea-9d75-0b609b84c40a.jpeg\", \"https://a0.muscache.com/im/pictures/21654b89-3d70-45ed-8a91-37fd3504e46a.jpg\", \"https://a0.muscache.com/im/pictures/hosting/Hosting-837201043750318844/original/7817d195-ace4-4c36-b0d7-3fe7d3fbd8c7.jpeg\", \"https://a0.muscache.com/im/pictures/0eedbd17-c7a1-41d2-b179-350ebd574f1f.jpg\"]",
+         "avg_rating": "4.56 (16)",
+         "price_per_night": "₹1,597 per night",
+         "total_price": "N/A"
+      }
+   },
+   {
+      "model": "airbnb_fetch.airbnblisting",
+      "pk": 36,
+      "fields": {
+         "title": "Apartment in เทศบาลนครนนทบุรี",
+         "full_url": "https://www.airbnb.co.in/s/6234095?adult=2&children=0&search_mode=regular_search&check_in=2025-05-16&check_out=2025-05-18",
+         "image_urls": "[\"https://a0.muscache.com/im/pictures/02d7c120-50a7-42e2-a6b7-d9361d251795.jpg\", \"https://a0.muscache.com/im/pictures/037d46fe-1cb7-41e2-8ec4-8ced85e68b82.jpg\", \"https://a0.muscache.com/im/pictures/9f24e514-30df-4f6f-a115-3de35e128d60.jpg\", \"https://a0.muscache.com/im/pictures/8f50c8d9-0e0c-47de-8bba-a68aaf90e9a3.jpg\", \"https://a0.muscache.com/im/pictures/ad380e38-73c8-4cb8-b630-ff677b821b56.jpg\", \"https://a0.muscache.com/im/pictures/cb664ffc-3d1a-4c86-a500-5252fbc608dd.jpg\"]",
+         "avg_rating": "4.69 (48)",
+         "price_per_night": "₹2,361 per night",
+         "total_price": "N/A"
+      }
+   }
+]

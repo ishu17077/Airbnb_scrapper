@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-p&cp#a=erzhcywuh(i_-q2j361*ch*@kbm5um(qd5=!q&+1l2+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'airbnb_fetch.apps.AirbnbFetchConfig'
 ]
 
 MIDDLEWARE = [
@@ -50,6 +51,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
 ]
 
 ROOT_URLCONF = 'backend.urls'
@@ -58,7 +60,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-           'template/index.html'
+           BASE_DIR/'template'           
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -97,7 +99,7 @@ def getCredentials(fileLocation=f"{dirPath}/key.properties"):
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'ROMEO',
+        'NAME': 'Airbnb',
         'USER': getCredentials()['user'],
         'PASSWORD': getCredentials()['password'],
         'HOST':'localhost',

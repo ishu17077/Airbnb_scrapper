@@ -1,7 +1,8 @@
 import re
 
+from backend.constants import *
 
-def getCredentials(fileLocation="./backend/backend/key.properties"):
+def getCredentials(fileLocation=f"{dirPath}/key.properties"):
    try:
       f = open(fileLocation, "r")
       data = f.read()
