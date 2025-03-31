@@ -8,7 +8,5 @@ from airbnbscrapper.spiders.mysql_connection import *
 
 def init():
     createNewDatabase()
-    connectToDatabase()
    #  testDatabase() #? Testing the table to see if it works
 
-init()

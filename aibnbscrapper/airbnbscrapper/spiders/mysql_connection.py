@@ -3,11 +3,13 @@ import os
 import re
 
 import mysql.connector
+import mysql.connector.errorcode
 from airbnbscrapper.spiders.constants import dirPath
 
 dbName="Airbnb"
 tableName = "scrapper"
 database = None
+cnx = None
 
 
 def getCredentials(fileLocation=f"{dirPath}/key.properties"):
@@ -29,8 +31,8 @@ def getCredentials(fileLocation=f"{dirPath}/key.properties"):
 
 def createNewDatabase():
    credentials = getCredentials()
-   global database
-   database = mysql.connector.connect(
+   global cnx
+   cnx = mysql.connector.connect(
         host = "localhost",
         user = credentials['user'],
         password = credentials['password'],
@@ -50,7 +52,7 @@ def createNewDatabase():
         total_price VARCHAR(500)
    );
     """
-   with database.cursor() as cursor:
+   with cnx.cursor() as cursor:
        cursor.execute(createDb)
    
 
@@ -59,35 +61,43 @@ def connectToDatabase():
    global database
    try:
         credentials = getCredentials()
-        with mysql.connector.connect(
+        database = mysql.connector.connect(
             host = "localhost",
             user = credentials['user'],
             password = credentials['password'],
             port = '3306',
             database = dbName
-        ) as database1:
-            database = database1
+        )
+        return database 
    except mysql.connector.Error as e:
        print("Error: "+e)
    
-def insertToDatabase(title: str, full_url: str, avgRating: str, pricePerNight: str, totalPrice: str, imageUrls: list) -> bool:
-    global database
-    insertRecordTemplate = f"""INSERT INTO {tableName} (title, full_url, image_urls, avg_rating, price_per_night, total_price)
-        VALUE(%s, %s, %s, %s, $s, %s)
-    """
-    imageUrls = json.dumps(imageUrls)
-    actualRecord = (
-        title,
-        full_url,
-        imageUrls,
-        avgRating,
-        pricePerNight,
-        totalPrice  
-    )
-    with database.cursor() as cursor:
-        cursor.execute(insertRecordTemplate, actualRecord)
-        database.commit()
-
+def insertToDatabase(database, title: str, fullUrl: str, avgRating: str, pricePerNight: str, totalPrice: str, imageUrls: list) -> bool:
+    try:
+        stringImageUrls = json.dumps(imageUrls)
+        insertRecordTemplate = f"""INSERT INTO {dbName}.{tableName} (title, full_url, image_urls, avg_rating, price_per_night, total_price
+        ) VALUE(%s,%s,%s,%s,%s,%s);
+        """
+        
+        actualRecord = (
+            title,
+            fullUrl,
+            stringImageUrls,
+            avgRating,
+            pricePerNight,
+            totalPrice  
+        )
+        with database.cursor() as cursor:
+            cursor.execute(insertRecordTemplate, actualRecord)
+            database.commit()
+    except mysql.connector.Error as err:
+        if err.errno == mysql.connector.errorcode.ER_ACCESS_DENIED_ERROR:
+            print("Something is wrong with your user name or password")
+        elif err.errno == mysql.connector.errorcode.ER_BAD_DB_ERROR:
+            print("Database does not exist")
+        else:
+            print(err)
+    
 
 
 
@@ -106,3 +116,4 @@ def testDatabase():
         scapper_schemas = cursor.fetchall()
         for column in scapper_schemas:
             print(column)
+

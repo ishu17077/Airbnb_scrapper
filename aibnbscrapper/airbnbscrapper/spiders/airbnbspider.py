@@ -1,7 +1,7 @@
 import json
 # import re
 import scrapy
-
+from airbnbscrapper.spiders.mysql_connection import *
 
 class AirbnbspiderSpider(scrapy.Spider):
     name = "airbnbspider"
@@ -12,6 +12,7 @@ class AirbnbspiderSpider(scrapy.Spider):
     checkOut = None
     num_adult = None
     num_children = None
+    database = None
 
     base_url = base_url = f"https://www.airbnb.co.in/s/{locationData}/homes?checkin={checkIn}&checkout={checkOut}&adults={num_adult}&children={num_children}&search_mode=regular_search"
 
@@ -21,6 +22,7 @@ class AirbnbspiderSpider(scrapy.Spider):
         self.locationData = getattr(self,"location","Darjeeling") if getattr(self,"location","Darjeeling") is not None else "Darjeeling"
         self.num_adult = getattr(self,"adults","2") if getattr(self,"adults","2") is not None else "2"
         self.num_children = getattr(self,"children","0") if getattr(self,"children","0") is not None else "0"
+        self.database = connectToDatabase()
         base_url = f"https://www.airbnb.co.in/s/{self.locationData}/homes?checkin={self.checkIn}&checkout={self.checkOut}&adults={self.num_adult}&children={self.num_children}&search_mode=regular_search"
         yield scrapy.Request(url=base_url,callback=self.parse)
         return super().start_requests()
@@ -53,7 +55,7 @@ class AirbnbspiderSpider(scrapy.Spider):
             elif is_json_key_present(secondaryLine, "price"):
                 total_price = secondaryLine['price']
             
-            yield{
+            dict = {
                 'full_url': f'https://www.airbnb.co.in/s/{result["listing"]["id"]}?adult={self.num_adult}&children={self.num_children}&search_mode=regular_search&check_in={self.checkIn}&check_out={self.checkOut}',
                 'title': result['listing']['title'],
                 'avg_rating': result['avgRatingLocalized'],
@@ -65,6 +67,9 @@ class AirbnbspiderSpider(scrapy.Spider):
                 'price_per_night':price_per_night if price_per_night != None else 'N/A',
                 'total_price': total_price if total_price != None else 'N/A',
             }
+
+            insertToDatabase(database=self.database,title=dict['title'], fullUrl=dict['full_url'], avgRating=dict['avg_rating'], imageUrls=dict['imageUrls'], pricePerNight=dict['price_per_night'], totalPrice=dict['total_price'])
+            yield dict
             nextPage = jsonData['niobeMinimalClientData'][0][1]["data"]["presentation"]["staysSearch"]["results"]['paginationInfo']['nextPageCursor']
             if nextPage:
                 nextUrl = self.base_url + f"&paginationSearch=true&cursor={nextPage}"

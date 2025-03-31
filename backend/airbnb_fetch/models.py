@@ -4,7 +4,7 @@ from django.db import models
 class AirbnbListing(models.Model):
    title = models.TextField()
    fullUrl = models.URLField()
-   images = models.JSONField()
+   imageUrls = models.JSONField()
    avgRating = models.TextField()
    pricePerNight = models.TextField()
    totalPrice = models.TextField()
