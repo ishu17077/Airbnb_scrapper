@@ -7,22 +7,29 @@ class AirbnbspiderSpider(scrapy.Spider):
     name = "airbnbspider"
     # allowed_domains = ["airbnb.co.in"]
     # start_urls = ["https://airbnb.co.in"]
-    location = "Darjeeling"
-    checkIn = "2025-03-31"
-    checkOut = "2025-04-02"
-    num_adult = 2
-    num_children = 1
+    locationData = None
+    checkIn = None
+    checkOut = None
+    num_adult = None
+    num_children = None
 
-    base_url = f"https://www.airbnb.co.in/s/{location}/homes?checkin={checkIn}&checkout={checkOut}&adults={num_adult}&children={num_children}&search_mode=regular_search"
+    base_url = base_url = f"https://www.airbnb.co.in/s/{locationData}/homes?checkin={checkIn}&checkout={checkOut}&adults={num_adult}&children={num_children}&search_mode=regular_search"
 
     def start_requests(self):
-        yield scrapy.Request(url=self.base_url,callback=self.parse)
+        self.checkIn = getattr(self,"checkIn","2025-03-10") if getattr(self,"checkIn","2025-03-10") is not None else "2025-03-10"
+        self.checkOut = getattr(self,"checkOut","2025-03-15") if getattr(self,"checkOut","2025-03-15") is not None else "2025-03-15"
+        self.locationData = getattr(self,"location","Darjeeling") if getattr(self,"location","Darjeeling") is not None else "Darjeeling"
+        self.num_adult = getattr(self,"adults","2") if getattr(self,"adults","2") is not None else "2"
+        self.num_children = getattr(self,"children","0") if getattr(self,"children","0") is not None else "0"
+        base_url = f"https://www.airbnb.co.in/s/{self.locationData}/homes?checkin={self.checkIn}&checkout={self.checkOut}&adults={self.num_adult}&children={self.num_children}&search_mode=regular_search"
+        yield scrapy.Request(url=base_url,callback=self.parse)
         return super().start_requests()
     
 
-
-
     def parse(self, response):
+
+
+
         data = response.xpath("//script[@id='data-deferred-state-0']/text()").get()
         jsonData = json.loads(data)
         targetResult = jsonData['niobeMinimalClientData'][0][1]["data"]["presentation"]["staysSearch"]["results"]["searchResults"]  
@@ -62,6 +69,10 @@ class AirbnbspiderSpider(scrapy.Spider):
             if nextPage:
                 nextUrl = self.base_url + f"&paginationSearch=true&cursor={nextPage}"
                 yield scrapy.Request(url=nextUrl, callback=self.parse)
+
+
+
+
 
 def is_json_key_present(json, key):
     try:
