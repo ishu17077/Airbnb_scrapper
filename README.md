@@ -36,8 +36,7 @@ user="username here"
 password="password here"
 "
 
-please add key.properties in:
+# Please add key.properties if sql server is encrypted, in: #
 
-./Airbnb_scrapper/aibnbscrapper/spiders 
-
-./Airbnb_scrapper/backend/backend/
+- ./Airbnb_scrapper/aibnbscrapper/spiders 
+- ./Airbnb_scrapper/backend/backend/
