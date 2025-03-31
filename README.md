@@ -1,6 +1,6 @@
 # Try to run these commands before if stuff doens't work #
-sudo apt install pkg-config python3-dev default-libmysqlclient-dev build-essential
-pip3 install mysqlclient django scrapy
+- sudo apt install pkg-config python3-dev default-libmysqlclient-dev build-essential   (for Ubuntu and debian based distros)
+- pip3 install mysqlclient django scrapy
 
 # To run the scrapy script, please run it in order #
 
