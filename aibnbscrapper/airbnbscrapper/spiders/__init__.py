@@ -2,3 +2,13 @@
 #
 # Please refer to the documentation for information on how to create and manage
 # your spiders.
+
+from airbnbscrapper.spiders.mysql_connection import *
+
+
+def init():
+    createNewDatabase()
+    connectToDatabase()
+   #  testDatabase() #? Testing the table to see if it works
+
+init()

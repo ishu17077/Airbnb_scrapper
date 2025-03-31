@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 import re
 from pathlib import Path
+import os
 
 # from getCredentials import *
 
@@ -56,7 +57,9 @@ ROOT_URLCONF = 'backend.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+           'template/index.html'
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -74,7 +77,9 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
-def getCredentials(fileLocation="./backend/backend/key.properties"):
+dirPath = os.path.dirname(os.path.realpath(__file__))
+
+def getCredentials(fileLocation=f"{dirPath}/key.properties"):
    try:
       f = open(fileLocation, "r")
       data = f.read()
@@ -89,7 +94,6 @@ def getCredentials(fileLocation="./backend/backend/key.properties"):
          "user": 'root',
          "password": None,
       }
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
