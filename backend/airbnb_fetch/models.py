@@ -16,6 +16,7 @@ class AirbnbListing(models.Model):
     avg_rating = models.CharField(max_length=500, blank=True, null=True)
     price_per_night = models.CharField(max_length=500, blank=True, null=True)
     total_price = models.CharField(max_length=500, blank=True, null=True)
+    location = models.CharField(max_length=100, blank=True, null=True)
 
     class Meta:
         managed = False

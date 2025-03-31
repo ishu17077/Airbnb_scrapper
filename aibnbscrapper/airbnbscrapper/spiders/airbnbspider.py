@@ -19,7 +19,7 @@ class AirbnbspiderSpider(scrapy.Spider):
     def start_requests(self):
         self.checkIn = getattr(self,"checkIn","2025-03-10") if getattr(self,"checkIn","2025-03-10") is not None else "2025-03-10"
         self.checkOut = getattr(self,"checkOut","2025-03-15") if getattr(self,"checkOut","2025-03-15") is not None else "2025-03-15"
-        self.locationData = getattr(self,"location","Darjeeling") if getattr(self,"location","Darjeeling") is not None else "Darjeeling"
+        self.locationData = str.title(getattr(self,"location","Darjeeling")) if getattr(self,"location","Darjeeling") is not None else "Darjeeling"
         self.num_adult = getattr(self,"adults","2") if getattr(self,"adults","2") is not None else "2"
         self.num_children = getattr(self,"children","0") if getattr(self,"children","0") is not None else "0"
         self.database = connectToDatabase()
@@ -63,12 +63,12 @@ class AirbnbspiderSpider(scrapy.Spider):
                 # 'options':  re.findall(r'"messages":\s*\[(.*?)\]', json['listing']['contextualPictures']['caption']),
                 # The entire regular expression aims to find the string "messages": followed by optional whitespace, an opening square bracket, then captures everything inside of the square brackets, and then finds the closing square bracket. It is designed to extract the contents of a JSON-like "messages" array.
                 # 'coordinates': f"{result['demandStayListing']['location']}", #? Dynamic json keeps changing
-                
+                'location':self.locationData,
                 'price_per_night':price_per_night if price_per_night != None else 'N/A',
                 'total_price': total_price if total_price != None else 'N/A',
             }
 
-            insertToDatabase(database=self.database,title=dict['title'], fullUrl=dict['full_url'], avgRating=dict['avg_rating'], imageUrls=dict['imageUrls'], pricePerNight=dict['price_per_night'], totalPrice=dict['total_price'])
+            insertToDatabase(database=self.database,title=dict['title'], fullUrl=dict['full_url'], avgRating=dict['avg_rating'], imageUrls=dict['imageUrls'], pricePerNight=dict['price_per_night'], totalPrice=dict['total_price'],location=self.locationData)
             yield dict
             nextPage = jsonData['niobeMinimalClientData'][0][1]["data"]["presentation"]["staysSearch"]["results"]['paginationInfo']['nextPageCursor']
             if nextPage:

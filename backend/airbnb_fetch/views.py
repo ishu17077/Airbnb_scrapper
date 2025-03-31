@@ -22,3 +22,14 @@ def showAllListings(request):
    return HttpResponse(
     airbnbListingsJson, content_type="application/json"
    )
+
+def showSpecificListings(request, location:str):
+    airbnbListings = AirbnbListing.objects.all()
+    searchResult = []
+    for airbnbListing in airbnbListings:
+       if location.upper() == airbnbListing.location.upper():
+          searchResult.append(airbnbListing)
+    searchResult = serializers.serialize("json", searchResult)
+    return HttpResponse(
+     searchResult, content_type="application/json"
+    )

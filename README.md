@@ -4,6 +4,7 @@ pip3 install mysqlclient django scrapy
 
 # To run the scrapy script, please run it in order #
 
+cd ./Airbnb_scrapper/aibnbscrapper
 scrapy crawl airbnbspider -a location=Puri -a checkIn=2025-05-16 -a checkOut=2025-05-18 -a adults=2 -a children=0
 //? Here in these parameters: location, checkIn, checkOut and others can be modified
 

@@ -49,7 +49,8 @@ def createNewDatabase():
         image_urls TEXT,
         avg_rating VARCHAR(500),
         price_per_night VARCHAR(500),
-        total_price VARCHAR(500)
+        total_price VARCHAR(500),
+        location VARCHAR(100)
    );
     """
    with cnx.cursor() as cursor:
@@ -72,11 +73,11 @@ def connectToDatabase():
    except mysql.connector.Error as e:
        print("Error: "+e)
    
-def insertToDatabase(database, title: str, fullUrl: str, avgRating: str, pricePerNight: str, totalPrice: str, imageUrls: list) -> bool:
+def insertToDatabase(database, title: str, fullUrl: str, avgRating: str, pricePerNight: str, totalPrice: str, imageUrls: list, location: str) -> bool:
     try:
         stringImageUrls = json.dumps(imageUrls)
-        insertRecordTemplate = f"""INSERT INTO {dbName}.{tableName} (title, full_url, image_urls, avg_rating, price_per_night, total_price
-        ) VALUE(%s,%s,%s,%s,%s,%s);
+        insertRecordTemplate = f"""INSERT INTO {dbName}.{tableName} (title, full_url, image_urls, avg_rating, price_per_night, total_price, location
+        ) VALUE(%s,%s,%s,%s,%s,%s,%s);
         """
         
         actualRecord = (
@@ -85,7 +86,8 @@ def insertToDatabase(database, title: str, fullUrl: str, avgRating: str, pricePe
             stringImageUrls,
             avgRating,
             pricePerNight,
-            totalPrice  
+            totalPrice,
+            location
         )
         with database.cursor() as cursor:
             cursor.execute(insertRecordTemplate, actualRecord)
