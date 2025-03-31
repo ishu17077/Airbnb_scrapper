@@ -56,7 +56,7 @@ class AirbnbspiderSpider(scrapy.Spider):
                 total_price = secondaryLine['price']
             
             dict = {
-                'full_url': f'https://www.airbnb.co.in/s/{result["listing"]["id"]}?adult={self.num_adult}&children={self.num_children}&search_mode=regular_search&check_in={self.checkIn}&check_out={self.checkOut}',
+                'full_url': f'https://www.airbnb.co.in/rooms/{result["listing"]["id"]}?adult={self.num_adult}&children={self.num_children}&search_mode=regular_search&check_in={self.checkIn}&check_out={self.checkOut}',
                 'title': result['listing']['title'],
                 'avg_rating': result['avgRatingLocalized'],
                 'imageUrls': [res["picture"] for res in result['contextualPictures']],

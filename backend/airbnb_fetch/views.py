@@ -32,4 +32,4 @@ def showSpecificListings(request, location:str):
     searchResult = serializers.serialize("json", searchResult)
     return HttpResponse(
      searchResult, content_type="application/json"
-    )
+    ) 
